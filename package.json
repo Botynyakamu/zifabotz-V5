@@ -1,7 +1,7 @@
 {
-  "name": "R-Txzy",
+  "name": "LynXzy",
   "version": "2.2.0",
-  "description": "WhatsApp Bot",
+  "description": "Bot wa",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
