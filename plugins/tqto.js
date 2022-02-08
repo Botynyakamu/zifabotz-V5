@@ -6,8 +6,8 @@ BIG THANKS TO
 •My ortu
 •Nurutomo
 •Xteam
-•AlyaaXzy 
-•BOTCAHX (Tio)
+•Lynxzy
+•Lan Official
 •Zeks
 •Penyedia Layanan API
 •Orang-orang yang Berdonasi
