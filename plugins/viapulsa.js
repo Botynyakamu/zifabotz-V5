@@ -20,7 +20,7 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 ║   *FITUR LAINNYA*
 ║ 
 ╠═ ©2021 Rpg wabot-aq
-╠═ Scrip original by Nurutomo
+╠═ Scrip original by Lan Official
 ╠═〘 LynXzy 〙 ═
 `.trim()
 
