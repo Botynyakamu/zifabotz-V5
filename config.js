@@ -4,7 +4,7 @@
 
 
 let fs = require('fs')
-global.owner = ['60189830350', '60189830350','60189830350', '60149431385', '60149431385'] // Letakan nomor kamu disini
+global.owner = ['6282146218274', '60189830350','60189830350', '60149431385', '60149431385'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -41,13 +41,13 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Bot'
-global.author = 'Lyn'
+global.packname = 'Riel'
+global.author = 'Botz'
 
 global.wait = '「 ⏱️ 」Harap tunggu...'
 global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© Lynxzy🥀' //change the watermark 
+global.watermark = '© RielXzy🥀' //change the watermark 
 global.image = 'https://telegra.ph/file/1a3eac3701775793618b3.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg'
 
