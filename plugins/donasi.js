@@ -2,9 +2,9 @@
 
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
-┌〔 Donasi • Topup 〕
-├ Digi🌸: 60149431385
-├ Umobile🌸: 60189830350
+┌〔 Donasi • Pulsa 〕
+├ Axis🗿: 083813417529
+├ Telkomsel🗿: 082146218274
 ├ DONASI BG, BIAR GW SEMANGAT🗿
 ├ GROUP RIEL BOT¹🥀
 ├ https://chat.whatsapp.com/HYr6cgrs7jmEmPMFtwviHW
