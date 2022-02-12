@@ -1,134 +1,66 @@
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
   let isEnable = /true|enable|(turn)?on|1/i.test(command)
-  let chat = db.data.chats[m.chat]
-  let user = db.data.users[m.sender]
-  let set = db.data.settings[conn.user.jid]
+  let chat = global.db.data.chats[m.chat]
+  let user = global.db.data.users[m.sender]
+  let setting = global.db.data.settings[conn.user.jid]
   let type = (args[0] || '').toLowerCase()
   let isAll = false
   let isUser = false
-  let grup = [
-    'antilink',
-    'desc',
-    'detect',
-    'welcome',
-  ]
-  let ch = [
-    'antidelete',
-    'autodelvn',
-    'delete',
-    'document',
-    'download',
-    'getmsg',
-    'sticker',
-    'viewonce',
-    'nsfw',
-    'antibadword'
-  ]
-  let ow = [
-    'anon',
-    'anticall',
-    'antispam',
-    'antitroli',
-    'autoread',
-    'broadcast',
-    'backup',
-    'statusupdate',
-    'gc',
-    'jadibot',
-    'mycontact',
-    'online',
-    'pc',
-    'public',
-    'restrict',
-  ]
   switch (type) {
-    // group
     case 'w':
     case 'welcome':
       if (!m.isGroup) {
         if (!isOwner) {
-          dfail('group', m, conn)
+          global.dfail('group', m, conn)
           throw false
         }
       } else if (!(isAdmin || isOwner)) {
-        dfail('admin', m, conn)
+        global.dfail('admin', m, conn)
         throw false
       }
       chat.welcome = isEnable
       break
-    case 'antibadword':
+    case 'viewonce':
       if (!m.isGroup) {
         if (!isOwner) {
-          dfail('group', m, conn)
+          global.dfail('group', m, conn)
           throw false
         }
       } else if (!(isAdmin || isOwner)) {
-        dfail('admin', m, conn)
+        global.dfail('admin', m, conn)
         throw false
       }
-      chat.badword = isEnable
+      chat.viewonce = isEnable
       break
     case 'detect':
       if (!m.isGroup) {
         if (!isOwner) {
-          dfail('group', m, conn)
+          global.dfail('group', m, conn)
           throw false
         }
       } else if (!(isAdmin || isOwner)) {
-        dfail('admin', m, conn)
+        global.dfail('admin', m, conn)
         throw false
       }
       chat.detect = isEnable
       break
-    case 'nsfw':
-      if (!m.isGroup) {
-        if (!isOwner) {
-          dfail('group', m, conn)
-          throw false
-        }
-      } else if (!(isAdmin || isOwner)) {
-        dfail('admin', m, conn)
-        throw false
-      }
-      chat.nsfw = isEnable
-      break
     case 'desc':
       if (!m.isGroup) {
         if (!isOwner) {
-          dfail('group', m, conn)
+          global.dfail('group', m, conn)
           throw false
         }
       } else if (!(isAdmin || isOwner)) {
-        dfail('admin', m, conn)
+        global.dfail('admin', m, conn)
         throw false
       }
-      chat.desc = isEnable
-      break
-    case 'read':
-    case 'autoread':
-      if (!isOwner) {
-        dfail('owner', m, conn)
-        throw false
-      }
-      chat.autoread = isEnable
-      break
-    case 'antilink':
-      if (!m.isGroup) {
-        if (!isOwner) {
-          dfail('group', m, conn)
-          throw false
-        }
-      } else if (!(isAdmin || isOwner)) {
-        dfail('admin', m, conn)
-        throw false
-      }
-      chat.antilink = isEnable
+      chat.descUpdate = isEnable
       break
     case 'del':
     case 'delete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
-          dfail('admin', m, conn)
+          global.dfail('admin', m, conn)
           throw false
         }
       }
@@ -137,16 +69,25 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     case 'antidelete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
-          dfail('admin', m, conn)
+          global.dfail('admin', m, conn)
           throw false
         }
       }
       chat.delete = !isEnable
       break
+    case 'antibadword':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiBadword = isEnable
+      break
     case 'autodelvn':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
-          dfail('admin', m, conn)
+          global.dfail('admin', m, conn)
           throw false
         }
       }
@@ -155,71 +96,60 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     case 'document':
       chat.useDocument = isEnable
       break
-    case 'd':
-    case 'download':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          dfail('admin', m, conn)
-          throw false
-        }
+    case 'publik':
+    case 'public':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
       }
-      chat.download = isEnable
+      global.opts['self'] = !isEnable
       break
-    case 'getmsg':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          dfail('admin', m, conn)
+    case 'antilink':
+    case 'antiurl':
+      if (!m.isGroup) {
+        if (!isOwner) {
+          global.dfail('group', m, conn)
           throw false
         }
+      } else if (!(isAdmin || isOwner)) {
+        global.dfail('admin', m, conn)
+        throw false
       }
-      chat.getmsg = isEnable
+      chat.antiLink = isEnable
       break
     case 's':
     case 'stiker':
-    case 'sticker':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
-          dfail('admin', m, conn)
+          global.dfail('admin', m, conn)
           throw false
         }
       }
       chat.stiker = isEnable
       break
-    case 'v':
-    case 'viewonce':
+     case 'rpg':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
-          dfail('admin', m, conn)
+          global.dfail('admin', m, conn)
           throw false
         }
       }
-      chat.viewonce = isEnable
+      chat.rpg = isEnable
       break
-
-    //owner
-    case 'backup':
-      isAll = true
-      if (!isROwner) {
-        dfail('rowner', m, conn)
-        throw false
+    case 'nsfw':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
       }
-      set.backup = !isEnable 
+      chat.nsfw = isEnable
       break
-    case 'statusupdate':
-      isAll = true
-      if (!isROwner) {
-        dfail('rowner', m, conn)
-        throw false
-      }
-      set.statusUpdate = !isEnable
-      break
-    case 'public':
-      isAll = true
-      if (!isROwner) {
-        dfail('rowner', m, conn)
-        throw false
-      }
-      set.self = !isEnable
+    case 'autolevelup':
+    case 'levelup':
+      isUser = true
+      user.autolevelup = isEnable
       break
     case 'mycontact':
     case 'mycontacts':
@@ -228,92 +158,114 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     case 'whitelistmycontact':
     case 'whitelistmycontacts':
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
       conn.callWhitelistMode = isEnable
       break
-    case 'allowbc':
-    case 'bc':
-    case 'broadcast':
-      if (!isOwner) {
-        dfail('owner', m, conn)
-        throw false
-      }
-      chat.broadcast = isEnable
-      break
-    case 'anon':
+    case 'grup':
+    case 'gruponly':
+    case 'grouponly':
       isAll = true
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
-      set.anon = isEnable
+      setting.groupOnly = isEnable
+      break
+    case 'backup':
+      isAll = true
+      if (!isOwner) {
+        global.dfail('owner', m, conn)
+        throw false
+      }
+      setting.backup = isEnable
       break
     case 'anticall':
       isAll = true
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
-      set.anticall = isEnable
-      break
-    case 'antispam':
-      isAll = true
-      if (!isOwner) {
-        dfail('owner', m, conn)
-        throw false
-      }
-      set.antispam = isEnable
+      setting.anticall = isEnable
       break
     case 'antitroli':
       isAll = true
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
-      set.antitroli = isEnable
+      setting.antitroli = isEnable
       break
-    case 'jadibot':
+    case 'autoread':
       isAll = true
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
-      set.jadibot = isEnable
+      opts['autoread'] = isEnable
       break
     case 'restrict':
       isAll = true
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
-      set.restrict = isEnable
+      opts['restrict'] = isEnable
       break
-    case 'pc':
-    case 'pconly':
-    case 'privateonly':
+    case 'antispam':
       isAll = true
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
-      set.private = isEnable
+      setting.antispam = isEnable
       break
-    case 'gc':
-    case 'gconly':
-    case 'grouponly':
+    case 'anon':
       isAll = true
       if (!isOwner) {
-        dfail('owner', m, conn)
+        global.dfail('owner', m, conn)
         throw false
       }
-      set.group = isEnable
+      setting.anon = isEnable
+      break
+    case 'onsfw':
+      isAll = true
+      if (!isOwner) {
+        global.dfail('owner', m, conn)
+        throw false
+      }
+      opts['nsfw'] = isEnable
+      break
+    case 'jadibot':
+      isAll = true
+      if (!isOwner) {
+        global.dfail('owner', m, conn)
+        throw false
+      }
+      setting.jadibot = isEnable
+      break
+    case 'simi':
+      if (m.isGroup) {
+        global.dfail('private', m, conn)
+        throw false
+      } 
+      chat.simi = isEnable
       break
     default:
       if (!/[01]/.test(command)) throw `
-┌「 Daftar opsi 」${isOwner ? '\n' + ow.map(v => '├ ' + v).join`\n` : ''}${m.isGroup ? '\n' + grup.map(v => '├ ' + v).join`\n` : ''}
-${ch.map(v => '├ ' + v).join`\n`}
+┌〔 Daftar Opsi 〕${isOwner ? '\n├ anon\n├ antispam\n├ antitroli\n├ autoread\n├ backup\n├ clear\n├ grouponly\n├ jadibot\n├ nsfw\n├ public\n├ mycontact' : ''}
+├ antilink
+├ autolevelup
+├ rpg
+├ delete
+├ detect
+├ viewonce
+├ antibadword
+├ document
+├ stiker
+├ simi
+├ welcome
 └────
 contoh:
 ${usedPrefix}on welcome
@@ -322,10 +274,10 @@ ${usedPrefix}off welcome
       throw false
   }
   m.reply(`
-*${type}* berhasil di *${isEnable ? 'nyalakan' : 'matikan'}* ${isAll ? 'untuk bot ini' : isUser ? '' : 'untuk chat ini'}
+*${type}* berhasil di *${isEnable ? 'nyala' : 'mati'}kan* ${isAll ? 'untuk bot ini' : isUser ? '' : 'untuk chat ini'}
 `.trim())
 }
-handler.help = ['on', 'off'].map(v => v + ' <option>')
+handler.help = ['on', 'off'].map(v => v + ' <opsi>')
 handler.tags = ['group', 'owner']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 
