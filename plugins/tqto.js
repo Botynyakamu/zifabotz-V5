@@ -6,6 +6,9 @@ BIG THANKS TO
 •My ortu
 •Nurutomo
 •Xteam
+•Riel
+•Tio
+•Alyaa
 •Lynxzy
 •Lan Official
 •Zeks
