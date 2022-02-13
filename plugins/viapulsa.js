@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `╠═〘 PEMBAYARAN 〙 ═
-╠═ Untuk Pembayaran Via Topup Rm10
+╠═ Untuk Pembayaran Via Topup pulsa
 ╠➥ Cht Owner
 ║
 ╠═〘 Fitur 〙 ═
@@ -20,8 +20,8 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 ║   *FITUR LAINNYA*
 ║ 
 ╠═ ©2021 Rpg wabot-aq
-╠═ Scrip original by Lan Official
-╠═〘 LynXzy 〙 ═
+╠═ Scrip original by Riel Official
+╠═〘 RielXzy 〙 ═
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
