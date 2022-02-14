@@ -6,11 +6,11 @@ BIG THANKS TO
 •My ortu
 •Nurutomo
 •Xteam
-•Riel
+•Riel(owner)
 •Tio
 •Alyaa
 •Lynxzy
-•Lan Official
+•Exc
 •Zeks
 •Penyedia Layanan API
 •Orang-orang yang Berdonasi
