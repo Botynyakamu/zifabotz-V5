@@ -48,8 +48,8 @@ global.wait = '「 ⏱️ 」Harap tunggu...'
 global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.watermark = '© RielXzy🥀' //change the watermark 
-global.image = 'https://telegra.ph/file/1a3eac3701775793618b3.jpg' //change the image
-global.thumbfoto = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg'
+global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the image
+global.thumbfoto = 'https://telegra.ph/file/6e75d7b8bec8fa992e69b.jpg'
 
 // image
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
