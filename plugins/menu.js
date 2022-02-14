@@ -189,7 +189,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": "*© RielXzy🗿*",
           "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
-          "buttonText": "Click Here",
+          "buttonText": "KLIK BANG",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
