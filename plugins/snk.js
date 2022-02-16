@@ -21,10 +21,10 @@ Peraturan Bot Riel
 
 Syarat Ketentuan Bot Riel
 1. Bot akan keluar dari group apabila sudah waktunya keluar.
-2. LynXzy dapan mem-ban users secara sepihak terlepas dari users salah atau tidak.
-3. LynXzy *tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.*
-4. LynXzy akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
-5. LynXzy bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
+2. RielXzy dapan mem-ban users secara sepihak terlepas dari users salah atau tidak.
+3. RielXzy *tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.*
+4. RielXzy akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
+5. RielXzy bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
 
 - Riel(owner)
 - RielxBot(bot)
