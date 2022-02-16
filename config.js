@@ -44,8 +44,8 @@ global.APIKeys = { // APIKey nya disini
 global.packname = 'Riel'
 global.author = 'Botz'
 
-global.wait = '「 ⏱️ 」Harap tunggu...'
-global.eror = '「❗」Server ERROR!'
+global.wait = '「 ⏱️ 」TUNGGU TOD:V...'
+global.eror = '「❗」Server LAGI ERROR TOD:V!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.watermark = '© RielXzy🥀' //change the watermark 
 global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the image
