@@ -15,8 +15,8 @@ handler.before = async function (m) {
             await this.sendButton(m.chat, `*Benar!* +${this.caklontong[id][2]} XP\n${json.deskripsi}`, watermark, 'Cak Lontong', '.caklontong', m)
             clearTimeout(this.caklontong[id][3])
             delete this.caklontong[id]
-        } else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold) m.reply(`*Dikit Lagi!*`)
-        else m.reply(`*Salah!*`)
+        } else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold) m.reply(`*Dikit Lagi cok!*`)
+        else m.reply(`*Dih kok salah cok!*`)
     }
     return !0
 }
