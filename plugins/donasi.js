@@ -1,24 +1,48 @@
-//Jangan Di Hapus Tapi kalo Di tambah Boleh
-
+const { MessageType } = require('@adiwajshing/baileys')
+const fs = require('fs')
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
-┌〔 Donasi • Pulsa 〕
-├ Axis🗿: 083813417529
-├ Telkomsel🗿: 082146218274
-├ DONASI BG, BIAR GW SEMANGAT🗿
-├ GROUP RIEL BOT¹🥀
-├ https://chat.whatsapp.com/HYr6cgrs7jmEmPMFtwviHW
-├ GROUP RIEL BOT²✨
-├ https://chat.whatsapp.com/F4mwyaFGBBR9UD4LFL3P1I
-├ GROUP BOT LAN¹🥀
-├ https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk
-├ GROUP BOT² LAN✨
-├ https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB
-├ JIKA LINK GRUB DI RESET SILA CHAT OWNER,KETIK #owner
-└────
-`.trim(), watermark, 'Menu', '.menu', m)
+let handler = async (m, { conn }) => {
+
+let str = `››╭─〘 *Donasi* 〙
+╭╡
+│┝‷✧ *Pulsa:* 085828764046
+│┝‷✧ *Dana:* 085828764046
+│┝‷✧ *Gopay:* 085828764046
+│╰───···─────
+│⁺◛˖ Ingin Donasi? Chat nomor dibawah
+╰──────────···───╮`
+let name = await conn.getName(m.sender)
+
+let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+
+  sumberImg = await (await fetch(fla + 'donasi')).buffer()
+  image = (await conn.prepareMessage('6285828764046@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
+  res = await conn.prepareMessageFromContent(m.chat, {
+    "productMessage": {
+      "product": {
+        "productImage": image,
+        "productId": "4938174216214248",
+        "title": "DONASI",
+        "description": '\n' + wm + '\n' + str,
+        "retailerId": "Thanks For Donate !",
+        "url": "▌│█║▌║▌║║▌║▌║█│▌",
+        "descriptionCount": "999999999",
+        "productImageCount": "1",
+      },
+      "businessOwnerJid": "6285828764046@s.whatsapp.net",
+      "contextInfo": {
+        "forwardingScore": 9999,
+        "isForwarded": false
+      }
+    }
+  },
+    { quoted: fkon })
+  conn.relayWAMessage(res)
+}
 handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = /^dona(te|si)$/i
+handler.command = /^dona(si|te)$/
 
 module.exports = handler
+
+let wm = global.botwm
