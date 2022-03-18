@@ -380,11 +380,11 @@ _____•••••••••
                                 "rows": [{
                                     "title": "|👩‍💻| Owner ZIFABOTZ",
                                     "description": "pemilik ZIFABOTZ",
-                                    "rowId": "owner"
+                                    "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
-                                    "rowId": "botstatus"
+                                    "rowId": ".botstatus"
                                 }, {
                                     "title": "|🖨️| Rules zifabotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
