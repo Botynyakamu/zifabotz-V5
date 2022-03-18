@@ -8,6 +8,7 @@ BIG THANKS TO
 ║│➸ *_LAYANAN API_*
 ║│➸ *_ALYA_*
 ║│➸ *_BOTCAHX_*
+║│➸ *_ARYBOTZ_*
   •BASE NURUTOMO
 ═════════════
 `.trim(), watermark, 'Back', '.menu')
