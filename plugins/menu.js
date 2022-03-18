@@ -248,6 +248,10 @@ _____•••••••••
                                     "description": "indentitas kamu di zifabotz.",
                                     "rowId": ".profile"
                                 }, {
+  "title":  "|📥| ❯╾Store╼-",
+                                    "description": "toko/penjualan barang di zifabotz",
+                                    "rowId": ".donasi"
+                                }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewa"
