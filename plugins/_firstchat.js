@@ -15,13 +15,13 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
     await conn.send2ButtonLoc(m.chat, await(await fetch(thumbfoto)).buffer(), `
 *Hi ${name}, ${ucapan()}*
-Saya adalah RIELxBOTZ Bot salah satu bot Ter gg🗿.
-
-*Harap untuk tidak menelpon, meminta save, atau spam dalam penggunaan bot*
-Silahkan baca rules dan mematuhi rules demi kenyamanan kita bersama.
-Terimakasih
-
-Jika ada kendala silahkan hubungi owner.
+───⬡ 〔 𝐁𝐎𝐓z 𝐂𝐇𝐀𝐓 〕 ⬡────
+╭───────────────╮
+        My name *ZIFABOTZ*
+        Salah satu Bot diwhatsapp
+╰───────────────╯
+Silahkan mematuhi Rules Bot
+Demi kenyamanan kita bersama.
 `.trim(), watermark, 'Menu', '.?', 'Rules', '.rules')
     user.pc = new Date * 1
 }
@@ -31,16 +31,16 @@ function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
     res = "Selamat dinihari"
     if (time >= 4) { 
-        res = "Selamat pagi"
+        res = "Selamat pagi ya"
     }
     if (time > 10) {
-        res = "Selamat siang"
+        res = "Selamat siang ya"
     }
     if (time >= 15) {
-        res = "Selamat sore"
+        res = "Selamat sore ya"
     }
     if (time >= 18) {
-        res = "Selamat malam"
+        res = "Selamat malam ya"
     }
     return res
 }
