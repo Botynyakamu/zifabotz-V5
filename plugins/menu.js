@@ -248,9 +248,9 @@ _____•••••••••
                                     "description": "indentitas kamu di zifabotz.",
                                     "rowId": ".profile"
                                 }, {
-  "title":  "|🛒| ❯╾Store╼-",
-                                    "description": "toko/penjualan barang di zifabotz",
-                                    "rowId": ".store"
+  "title":  "|👩‍💻| ❯╾jadibot╼-",
+                                    "description": "bergabung bersama bot zifa",
+                                    "rowId": ".jadibot"
                                 }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
