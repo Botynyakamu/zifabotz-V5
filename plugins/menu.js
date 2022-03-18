@@ -257,7 +257,7 @@ _____•••••••••
                                     "rowId": ".gcbot"
                                 }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
-                                    "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
+                                    "description": "Untuk kamu yang ingin melihat daftar harga sewa bot.",
                                     "rowId": ".sewa"
                                 }],
                                 "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
