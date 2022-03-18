@@ -4,7 +4,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
 let str = `››╭─〘 *Donasi* 〙
-╭╡
+╭╡zifabotz
 │┝‷✧ *Pulsa:* 085828764046
 │┝‷✧ *Dana:* 085828764046
 │┝‷✧ *Gopay:* 085828764046
