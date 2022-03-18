@@ -252,8 +252,8 @@ _____•••••••••
                                     "description": "bergabung bersama bot zifa",
                                     "rowId": ".jadibot"
                                 }, {
-title":      "|👥| ❯╾Grub bot╼-",
-                                    "description": "yuk bergabung agar mendapatkan banyak temen.",
+  "title":  "|🙇‍♂️| ❯╾group╼-",
+                                    "description": "bergabung di grub bersama bot zifa",
                                     "rowId": ".gcbot"
                                 }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
