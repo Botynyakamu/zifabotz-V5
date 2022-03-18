@@ -22,7 +22,7 @@ handler.all = async function (m) {
 ╰───────────────╯
 Silahkan mematuhi Rules Bot
 Demi kenyamanan kita bersama.
-`.trim(), watermark, 'Menu', '.?', 'Rules', '.rules')
+`.trim(), watermark, 'Menu', '.?', 'Rules', '.rules', 'Verify', '.register')
     user.pc = new Date * 1
 }
 
