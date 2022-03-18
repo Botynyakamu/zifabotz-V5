@@ -244,9 +244,9 @@ _____•••••••••
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title":      "|❗| ❯╾Infoowner╼-",
-                                    "description": "indentitas owner zifabotz.",
-                                    "rowId": ".inforozi"
+                                    "title":      "|🖼️| ❯╾Profile╼-",
+                                    "description": "indentitas kamu di zifabotz.",
+                                    "rowId": ".profile"
                                 }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
