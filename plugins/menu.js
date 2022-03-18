@@ -252,6 +252,10 @@ _____•••••••••
                                     "description": "bergabung bersama bot zifa",
                                     "rowId": ".jadibot"
                                 }, {
+title":      "|👥| ❯╾Grub bot╼-",
+                                    "description": "yuk bergabung agar mendapatkan banyak temen.",
+                                    "rowId": ".gcbot"
+                                }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewa"
