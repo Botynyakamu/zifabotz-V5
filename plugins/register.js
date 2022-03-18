@@ -8,7 +8,16 @@ let handler = async function (m, { text, usedPrefix, command }) {
   if (user.registered === true) return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": '*Verify*',
-          "description": '📮 Anda sudah terdaftar! mau daftar ulang?',
+          "description": '╭═══════════════════════
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║│➸⏰Aktif selama ${uptime}
+║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+║│➸zifabotz
+║│➸*${conn.blocklist.length}* Terblock
+║│➸*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+║│➸*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+╰─────────❉
+📮 Anda sudah terdaftar! mau daftar ulang?',
           "footerText": global.botdate,
           "buttonText": "klik di sini",
           "listType": "SINGLE_SELECT",
@@ -40,6 +49,15 @@ let handler = async function (m, { text, usedPrefix, command }) {
         "listMessage": {
           "title": '*── 「 NOT REGISTERED 」 ──*',
           "description": `
+╭═══════════════════════
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║│➸⏰Aktif selama ${uptime}
+║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+║│➸zifabotz
+║│➸*${conn.blocklist.length}* Terblock
+║│➸*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+║│➸*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+╰─────────❉
 📮 Silahkan Pilih umur anda! Untuk bisa memverifikasi`,
           "footerText": global.botdate,
           "buttonText": "VERIFY",
