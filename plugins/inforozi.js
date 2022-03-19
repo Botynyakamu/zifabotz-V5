@@ -10,14 +10,12 @@ https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv
 ║│➸ ```ISTAGRAM``` : http://instagram.com/zalfapontianak
 ║│➸ ```WHATSAPP``` : http://wa.me/6285828764046
 ╰────────❉
-
-▌│█║▌║▌║║▌║▌║█│▌
 `.trim(), m)
 }
 
 handler.help = ['inforozi']
 handler.tags = ['main', 'utama']
-handler.command = /^(inforozi)$/i
+handler.command = /^(infoary)$/i
 
 handler.exp = 150
 
