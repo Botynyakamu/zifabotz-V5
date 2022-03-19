@@ -267,9 +267,13 @@ _____•••••••••
                                     "description": "Memberikan Semua Fitur Bot",
                                     "rowId": ".? all",
                                 }, { 
-                                    "title": "|🕋|─────「1」",
+                                    "title": "|🕋|─────「0」",
                                     "description": "Menu Tentang Islam",
                                     "rowId": ".? quran"
+                                }, {
+ "title": "|📖|─────「1」",
+                                    "description": "Menu doaharian",
+                                    "rowId": ".doaharian"
                                 }, {
                                 	"title": "|⛪|─────「2」",
                                     "description": "Menu Tentang Kristen",
