@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fet
 ║│➸ *PULSA*: *_085828764046_*
 ║│➸ *GOPAY*: _*085828764046*_
 ║╰──────────────────
-╰═════```by.zifabotz```
+╰═════```byzifabotz```
 `.trim(), 'JANGAN ASAL SALIN', 'BACK', '.menu')
 handler.help = ['donasi']
 handler.tags = ['info']
