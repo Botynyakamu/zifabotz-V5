@@ -3,7 +3,7 @@ handler.before = m => {
   let user = global.db.data.users[m.sender]
   if (user.afk > -1) {
     conn.send2Button(m.chat, `
-Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
+Bukannya lu tadi AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
 Selama ${clockString(new Date - user.afk)}
 `.trim(), watermark, 'Menu', '.?', 'AFK lagi...', `.afk ${user.afkReason  ? user.afkReason : ''}`, m)
     user.afk = -1
@@ -17,7 +17,7 @@ Selama ${clockString(new Date - user.afk)}
     if (!afkTime || afkTime < 0) continue
     let reason = user.afkReason || ''
     m.reply(`
-Jangan tag dia!
+Jangan tag dia cok!
 Dia sedang AFK ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
 Selama ${clockString(new Date - afkTime)}
 `.trim())
