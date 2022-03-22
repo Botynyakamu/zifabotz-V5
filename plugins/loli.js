@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   let res = await pinterest(loli)
   let pint = res[Math.floor(Math.random() * res.length)]
   conn.sendFile(m.chat, pint, '', `
-  *Nih pedo*
+  *©️ Zifabotz*
 `.trim(), m)
 }
 handler.help = ['loli']
