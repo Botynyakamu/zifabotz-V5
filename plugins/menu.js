@@ -384,8 +384,8 @@ _____•••••••••
                                     "rowId": ".runtime"
                                 }, { 
                                     "title": "|📬|─────「 29 」",
-                                    "description": "biodata owner",
-                                    "rowId": ".biodata"
+                                    "description": "tag diri sendiri",
+                                    "rowId": ".tagme"
                                 }, { 
                                     "title": "|👩‍⚖️|─────「 30 」",
                                     "description": "Menu Khusu Owner",
