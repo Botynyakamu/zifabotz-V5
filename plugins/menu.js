@@ -379,11 +379,15 @@ _____•••••••••
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
-                                    "title": "|─|─────「28」",
+"title": "|⏳|─────「28」",
+                                    "description": "runtime bot",
+                                    "rowId": ".runtime"
+                                }, { 
+                                    "title": "|─|─────「29」",
                                     "description": "",
                                     "rowId": ".? tanpakategori"
                                 }, { 
-                                    "title": "|👩‍⚖️|─────「29」",
+                                    "title": "|👩‍⚖️|─────「30」",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
