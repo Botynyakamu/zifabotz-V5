@@ -9,6 +9,7 @@ BIG THANKS TO
 ║│➸ *_ALYA_*
 ║│➸ *_BOTCAHX_*
 ║│➸ *_ARYBOTZ_*
+║│➸ *_YANG SUDAH NGERAWAT BOT_*
   •BASE NURUTOMO
 ═════════════
 `.trim(), watermark, 'Back', '.menu')
