@@ -26,6 +26,8 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (yt2 === false) throw 'semua server gagal'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
+╭═══════════════════════
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪⸙ *PLAY ZIFABOTZ *⳹ ❋ཻུ۪۪ 〕 ❉──────
 *Judul:* ${title}
 *Ukuran File Audio:* ${filesizeF}
 *Ukuran File Video:* ${yt2.filesizeF}
