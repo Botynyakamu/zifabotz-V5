@@ -4,7 +4,7 @@ BIG THANKS TO
 ╭═══════════════════════
 ║╭──❉ 〔 TERIMAKASIH 〕 ❉──────
 ║│➸ *OWNER* : *_ROZI_*
-║│➸ *BOTZ*: *_ZIFABOTZ_*
+║│➸ *BOT*: *_ZIFABOTZ_*
 ║│➸ *_LAYANAN API_*
 ║│➸ *_ALYA_*
 ║│➸ *_BOTCAHX_*
@@ -12,7 +12,7 @@ BIG THANKS TO
 ║│➸ *_YANG SUDAH NGERAWAT BOT_*
   •BASE NURUTOMO
 ═════════════
-`.trim(), watermark, 'Back', '.menu')
+`.trim(), watermark, 'TERIMAKASIH👋', '.menu')
 handler.help = ['Thanksto', 'tqto']
 handler.tags = ['main']
 handler.command = /^(tqto|thanks|thanksto|bigthanks)$/i
