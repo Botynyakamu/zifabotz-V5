@@ -17,7 +17,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Zifabotz lagi cape (・へ・)' : banned ? 'kamu dibanned' : 'APA OI NGETAG” GW?!!',
+                isBanned ? 'Zifabotz lagi cape (・へ・)' : banned ? 'kamu dibanned' : 'APA OI NGETAG",ADA BANSOS KAH?!!',
                 '',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : '⋮☰ Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.menu',
@@ -47,7 +47,7 @@ Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Menu', '#menu', 'Owner'
     let reg = /(terima?kasih|makasih|maacih|tengkyuh)/i
     let isSalam = reg.exec(m.text)
     if (isSalam && !m.fromMe) {
-        m.reply(`Sama-sama, , （ ・∀・）`)
+        m.reply(`Sama-sama (≡^∇^≡)`)
     }
 
     // backup db
