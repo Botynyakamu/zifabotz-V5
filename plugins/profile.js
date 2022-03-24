@@ -45,11 +45,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ║│➸📠Terdaftar: ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'}${lastclaim > 0 ? '\nTerakhir Klaim: ' + new Date(lastclaim).toLocaleString() : ''}
 ╰─────────❉
 `.trim()
- const button = {
-        buttonText: 'klik dsini',
-        description: kamisato,
-        sections:  [{title: "Silahkan di pilih", rows: [
-        {title: 'MENU BOTZ', description: "Kembali ke menu utama.", rowId:".menu"},
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', banned ? 'jiakh ke banned' : str, m, false, { contextInfo: { mentionedJid } })
   }
