@@ -387,7 +387,11 @@ _____•••••••••
                                     "description": "tag diri sendiri",
                                     "rowId": ".tagme"
                                 }, { 
-                                    "title": "|👩‍⚖️|─────「 30 」",
+"title": "|👾|─────「 30 」",
+                                    "description": "kode bot",
+                                    "rowId": ".getcode"
+                                }, { 
+                                    "title": "|👩‍⚖️|─────「 31 」",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
