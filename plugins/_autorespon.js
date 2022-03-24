@@ -33,12 +33,11 @@ handler.all = async function (m, { isBlocked }) {
         this.send2ButtonLoc(m.chat, logo, `
 ╭━━〔 List Sewa〕━✧
 │⬦ *1 Bulan* :      *Rp 15.000*
-│⬦ *4 bulan* :      *Rp 20.000*
-│⬦ *8 bulan* :      *Rp 35.000*
+│⬦ *4 bulan* :      *Rp 30.000*
+│⬦ *8 bulan* :      *Rp 40.000*
 ┝━━〔Payment〕━✧
 │⬦ Dana
 │⬦ Gopay
-│⬦ Pulsa
 ╰━━━✧
 Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Menu', '#menu', 'Owner', '#owner', m)
 }
