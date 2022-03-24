@@ -25,7 +25,7 @@ let handler = async(m, { conn }) => {
         {title: '1 Bulan', description: "Rp15.000\nSewa bot selama 1 bulan.", rowId:".owner"},
         {title: '8 bulan', description: "Rp40.000\nSewa bot selama 8 bulan.", rowId:".owner"},
         {title: 'Owner', description: "Chat owner nya jika ingin sewa bot.", rowId:".owner"},
-        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".snk"},
+        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
        ] }],
         listType: 1
        }
