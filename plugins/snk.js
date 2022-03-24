@@ -60,7 +60,7 @@ let handler = async(m, { conn }) => {
         {title: 'Menu Utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'Sewa Bot', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
         {title: 'Group Bot', description: "Official Group Bot zifabotz", rowId:".gcbot"},
-        {title: 'Cara Invit?', description: "Cara Memasukkan Bot Di GC", rowId:".tutorbot"},
+        {title: 'Donasi', description: "Donasi agar selalu online", rowId:".donasi"},
         {title: 'Owner', description: "Owner/Creator Bot", rowId:".owner"},
        ] }],
         listType: 1
