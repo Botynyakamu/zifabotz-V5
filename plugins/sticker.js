@@ -1,40 +1,40 @@
-const { MessageType } = require('@adiwajshing/baileys')
-const { sticker } = require('../lib/sticker')
-let handler = async (m, { conn, args, usedPrefix, command }) => {
+const { sticker, sticker5 } = require('../lib/sticker')
+
+let handler = async (m, { conn, usedPrefix, command }) => {
   let stiker = false
   try {
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
-    if (/image/.test(mime)) {
+    if (/webp/.test(mime)) {
       let img = await q.download()
-      if (!img) throw `balas gambar dengan caption *${usedPrefix + command}*`
-      stiker = await sticker(img, false, global.packname, global.author)
+      stiker = await sticker5(img, false, packname, author)
+    } else if (/image/.test(mime)) {
+      let img = await q.download()
+      stiker = await sticker5(img, false, packname, author)
     } else if (/video/.test(mime)) {
-      if ((q.msg || q).seconds > 11) return m.reply('Maksimal 10 detik!')
+      if ((q.msg || q).seconds > 11) return m.reply('maks 10 detik!')
       let img = await q.download()
-      if (!img) throw `balas video/gif dengan caption *${usedPrefix + command}*`
-      stiker = await sticker(img, false, global.packname, global.author)
-    } else if (/webp/.test(mime)) {
-      let img = await q.download()
-      if (!img) throw `balas sticker dengan caption *${usedPrefix + command}*`
-      stiker = await sticker(img, false, global.packname, global.author)
-    } else if (args[0]) {
-      if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
-      else return m.reply('URL tidak valid!')
+      stiker = await sticker(img, false, packname, author)
+    } else if (m.quoted.text) {
+      if (isUrl(m.quoted.text)) stiker = await sticker(false, m.quoted.text, packname, author)
+      else throw 'URL tidak valid! akhiri dengan jpg/gif/png'
     }
-  } finally {
-    if (stiker) conn.sendMessage(m.chat, stiker, MessageType.sticker, {
-      quoted: m
-    })
-    else throw 'Error! Pastikan mime benar atau coba lagi beberapa saat.'
+  } catch (e) {
+    throw e
+  }
+  finally {
+    if (stiker) await conn.sendFile(m.chat, stiker, '', '', m, 0, { asSticker: true })
+    else {
+      return conn.sendButton(m.chat, `Balas media dengan perintah *${usedPrefix + command}*`, '© zifabotz', 'Aktifkan Stiker Otomatis', '.1 s', m)
+    }
   }
 }
-handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
+handler.help = ['sticker']
 handler.tags = ['sticker']
-handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
+handler.command = /^(s(t|k|tic?ker)?)$/i
 
 module.exports = handler
 
 const isUrl = (text) => {
-  return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))
+  return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png|mp4)/, 'gi'))
 }
