@@ -314,7 +314,7 @@ Contoh penggunaan: *${usedPrefix + command} buy potion 1*
                 }
                 break
             default:
-                return conn.send2Button(m.chat, Kchat, watermark, 'Dompet', '.dompet', 'Inventory', '.inv', m)
+                return conn.send2Button(m.chat, Kchat, watermark, 'Dompet', '.dompet', 'Halaman utama', '.menu', m)
             }
         } else if (/beli|buy/i.test(command)) {
             const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
