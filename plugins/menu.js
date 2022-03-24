@@ -388,8 +388,8 @@ _____•••••••••
                                     "rowId": ".tagme"
                                 }, { 
 "title": "|👾|─────「 30 」",
-                                    "description": "kode bot",
-                                    "rowId": ".getcode"
+                                    "description": "inventory kamu",
+                                    "rowId": ".inv"
                                 }, { 
                                     "title": "|👩‍⚖️|─────「 31 」",
                                     "description": "Menu Khusu Owner",
