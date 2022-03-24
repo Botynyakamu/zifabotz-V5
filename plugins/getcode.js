@@ -5,5 +5,5 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['getcode']
 handler.tags = ['jadibot']
 handler.command = /^(getcode)$/i
-module.exports = handler
 
+module.exports = handler
