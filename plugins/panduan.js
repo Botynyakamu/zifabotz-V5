@@ -1,78 +1,30 @@
-let fetch = require('node-fetch')
 let moment = require('moment-timezone')
-let handler = async(m, { conn, usedPrefix, args, command }) => {
-    let name = conn.getName(m.sender)
-    let tulisan = `
-Halo ${name}, ${ucapan()} selamat datang di menu panduan LynXzy. di menu ini kalian bisa mendapatkan panduan soal bot whatsapp.
-┌〔 List Panduan 〕
-├ how
-├ owner
-├ add
-├ berlangganan
-├ bot
-└────
-Penggunaan: ${usedPrefix + command} list panduan
-contoh: ${usedPrefix + command} how
-`.trim()
-    if (!args[0]) await conn.sendButtonLoc(m.chat, await(await fetch(image)).buffer(), tulisan, watermark, 'Menu', '.menu', m)
-    let json = JSON.parse(JSON.stringify(global.panduan))
-    let { search, deskripsi, judul } = json.find(v => v.search == args[0])
-        return conn.send3ButtonLoc(m.chat, await(await fetch(image)).buffer(), `No. ${index} ${judul}
-${deskripsi}
-
-Query: ${search}
-`.trim(), watermark, 'Owner', '.owner', 'Menu', '.?', 'Rules', '.rules', m)
+let fs = require('fs')
+let handler = async (m, { conn, command, text }) => {
+let img = './src/RadBot.png'
+let user = global.db.data.users[m.sender]
+conn.sendButton(m.chat, `Halo ${conn.getName(m.sender)}, selamat datang di menu panduan zifabotz. di menu ini kalian bisa mendapatkan panduan soal bot whatsapp.\nowner\n- Owner atau Pemilik Bot adalah orang yang membuat bot. OWNER BUKANLAH BOT. chat owner apabila ada kepentingan atau ada yang perlu di tanyakan soal bot whatsapp,\n- Penjelasan OWNER/PEMILIK BOT\n\nhow\n- Cara menggunakan bot adalah dengan mengetikkan command bot. List command bot ada pada menu bot. jangan lupa, untuk mengakses command harus menggunakan prefix.\nPrefix zifa bot adalah all prefix.\nContoh penggunaan prefix dan command yang benar: *.menu*\n- Cara menggunakan bot dan prefix\n\nberlangganan\n- Layanan berlangganan zifa Bot adalah dengan menyewa bot dalam jumlah waktu ke dalam group. Untukm list harga/layanan silahkan baca pada *.sewa*\n- Berlangganan\n        \nbot\n- Bot adalah sebuah program komputer yang dijalankan di lingkungan. Bot Whatsapp adalah program komputer yang di-aplikasikan di whatsapp. Bot whatsapp diharapkan dapat membantu beberapa aktifitas maupun sekedar untuk senang senang.\n- Apa itu bot whatsapp\n\n\nPenggunaan: .join5 <linkgrub>\ncontoh: .sewa`, 'zifabotz', 'Menu', '#Menu', { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `${ucapan()} ${conn.getName(m.sender)}`, itemCount: 999, thumbnail: fs.readFileSync('./src/RadBotZ.jpg')
+}}})
 }
+handler.help = ['tutorbot']
 handler.tags = ['main']
-handler.help = ['panduan']
-handler.command = /^(panduan|how)$/i
+handler.command = /^tutorbot$/i
+
 module.exports = handler
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    res = "Selamat dinihari"
+    res = "Selamat dinihari🌖"
     if (time >= 4) {
-        res = "Selamat pagi"
+        res = "Selamat pagi🌝"
     }
     if (time > 10) {
-        res = "Selamat siang"
+        res = "Selamat siang🌞"
     }
     if (time >= 15) {
-        res = "Selamat sore"
+        res = "Selamat sore🌕"
     }
     if (time >= 18) {
-        res = "Selamat malam"
+        res = "Selamat malam🌚"
     }
     return res
 }
-global.panduan = [
-    {
-        "index": "1",
-        "search": "owner",
-        "deskripsi": "Owner atau Pemilik Bot adalah orang yang membuat bot. OWNER BUKANLAH BOT. chat owner apabila ada kepentingan atau ada yang perlu di tanyakan soal bot whatsapp.",
-        "judul": "Penjelasan OWNER/PEMILIK BOT"
-    },
-    {
-        "index": "2",
-        "search": "how",
-        "deskripsi": "Cara menggunakan bot adalah dengan mengetikkan command bot. List command bot ada pada menu bot. jangan lupa, untuk mengakses command harus menggunakan prefix.\nPrefix LynXzy adalah all prefix.\nContoh penggunaan prefix dan command yang benar: *.menu*",
-        "judul": "Cara menggunakan bot dan prefix"
-    },
-    {
-        "index": "3",
-        "search": "add",
-        "deskripsi": "Cara menambahkan bot ke dalam group. silahkan baca pada menu sewa dengan mengetikkan *.sewa*. Botz Lyn memberlakukan trial gratis 1 hari. Setelah 1 hari maka bot akan keluar dari group. ada opsi 1 minggu, 1 bulan dan 2 bulan berlangganan.",
-        "judul": "Cara menambahkan bot ke group",
-    },
-    {
-        "index": "4",
-        "search": "berlangganan",
-        "deskripsi": "Layanan berlangganan Bot Lyn adalah dengan menyewa bot dalam jumlah waktu ke dalam group. Untukm list harga/layanan silahkan baca pada *.sewa*",
-        "judul": "Berlangganan"
-    },
-    {
-        "index": "5",
-        "search": "bot",
-        "deskripsi": "Bot adalah sebuah program komputer yang dijalankan di lingkungan. Bot Whatsapp adalah program komputer yang di-aplikasikan di whatsapp. Bot whatsapp diharapkan dapat membantu beberapa aktifitas maupun sekedar untuk senang senang.",
-        "judul": "Apa itu bot whatsapp"
-    }
-]
