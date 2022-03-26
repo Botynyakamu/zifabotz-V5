@@ -35,17 +35,18 @@ let handler = async (m, { conn, usedPrefix }) => {
     let str = `
 ╭═══════════════════════
 ║╭──❉ ✧──────────[ *PROFILE* ]──────────✧
-📇 • *Name:* ${username} ${registered ? '(' + name + ') ': ''}
-📧 • *Tag:* @${who.replace(/@.+/, '')}
-📞 • *Number:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-💻 • *Link:* https://wa.me/${who.split`@`[0]}
-${registered ? '🎨 • *Age:* ' + age : ''}
-${about ? '🗒️ • *About:* ' + about : ''}
-
-🌟 • *Premium:* ${premium ? "✅" :"❌"}
-📑 • *Registered:* ${registered ? '✅': '❌'}
-⛔ • *Banned:* ❌
-
+║│➸📇 • *Name:* ${username} ${registered ? '(' + name + ') ': ''}
+║│➸📧 • *Tag:* @${who.replace(/@.+/, '')}
+║│➸📞 • *Number:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+║│➸💻 • *Link:* https://wa.me/${who.split`@`[0]}
+║│➸${registered ? '🎨 • *Age:* ' + age : ''}
+║│➸${about ? '🗒️ • *About:* ' + about : ''}
+╰─────────❉
+╭═══════════════════════
+║╭──❉ ✧──────────[ *STATUS* ]──────────✧
+║│➸🌟 • *Premium:* ${premium ? "✅" :"❌"}
+║│➸📑 • *Registered:* ${registered ? '✅': '❌'}
+║│➸⛔ • *Banned:* ❌
 ╰─────────❉
 `.trim()
     let mentionedJid = [who]
