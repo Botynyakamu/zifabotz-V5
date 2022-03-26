@@ -252,6 +252,11 @@ _____•••••••••
                                     "description": "bergabung bersama bot zifa",
                                     "rowId": ".jadibot"
                                 }, {
+"title":      "|🖼️| ❯╾biodata owner╼-",
+                                    "description": "indentitas owner di zifabotz.",
+                                    "rowId": ".infoowner"
+"
+                                }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
                                     "description": "bergabung di grub bersama bot zifa",
                                     "rowId": ".gcbot"
