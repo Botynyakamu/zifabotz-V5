@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let fetch = require('node-fetch')
 let str = `
-*🌟 Tutorial Buat Bot WA:*
+*👩‍💻 Tutorial Buat Bot WA:*
 
 ▸ Ketik di *[TERMUX]*
 1) $ apt update
@@ -32,7 +32,7 @@ $ npm i pm2 && pm2 start (sesuaikan sama sc kalian)
 
 [ 📌 Note : Tanda $ Ga Perlu Di Ketik ]
 `.trim()
-conn.sendButtonLoc(m.chat,await (await fetch(fla + 'Tutorial')).buffer(),str, `${wm}`, 'Script', '.sc', m )
+conn.sendButtonLoc(m.chat,await (await fetch(fla + 'Tutorial')).buffer(),str, `${wm}`, 'Beli Script', 'sc', m )
 }
 handler.help = ['carabuatbot','cbb']
 handler.tags = ['tutor','main']
