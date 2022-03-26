@@ -44,7 +44,7 @@ global.APIKeys = { // APIKey nya disini
 global.packname = 'rozi'
 global.author = 'zifa'
 
-global.wait = '「 ⏱️ 」TUNGGU ZIFA lagi proses_-...'
+global.wait = '▰▰▰▰▱▱▱▱▱▱ ʟᴏᴀᴅɪɴɢ...'
 global.eror = '「❗」Server LAGI ERROR COK!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.watermark = '© zifabotz' //change the watermark 
