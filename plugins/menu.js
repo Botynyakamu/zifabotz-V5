@@ -252,14 +252,13 @@ _____•••••••••
                                     "description": "bergabung bersama bot zifa",
                                     "rowId": ".jadibot"
                                 }, {
-"title":      "|🖼️| ❯╾biodata owner╼-",
-                                    "description": "indentitas owner di zifabotz.",
-                                    "rowId": ".infoowner"
-"
-                                }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
                                     "description": "bergabung di grub bersama bot zifa",
                                     "rowId": ".gcbot"
+                                }, {
+  "title":  "|📒| ❯╾biodata owner╼-",
+                                    "description": "informasi owner",
+                                    "rowId": ".infoowner"
                                 }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa bot.",
