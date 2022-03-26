@@ -16,6 +16,6 @@ handler.help = ['addowner [@user]']
 handler.tags = ['owner']
 handler.command = /^(add|tambah|\+)owner$/i
 
-handler.owner = true
+handler.owner = false
 
 module.exports = handler
