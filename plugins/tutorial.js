@@ -10,7 +10,7 @@ let str = `
 4) $ pkg install imagemagick
 5) $ pkg install nodejs
 
-▸ *Untuk Sc nya cari sendiri, atau minta sc ku*
+▸ *Untuk Sc nya cari sendiri, atau beli sc ku*
 6) $ termux-setup-storage
 7) $ cd storage/downloads/(nama file yg kmu rename)
 
