@@ -34,15 +34,18 @@ let handler = async (m, { conn, usedPrefix }) => {
     let math = max - xp
     let str = `
 ╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪PROFILE⳹ ❋ཻུ۪۪ 〕 ❉────── 
-║│➸🖨️Nama: ${username} ${registered ? '(' + name + ') ' : ''}(@${who.replace(/@.+/, '')})${about != 401 ? '\nInfo: ' + about : ''}
-║│➸📞Nomor: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-║│➸✉️Link: https://wa.me/${who.split`@`[0]}${registered ? '\nUmur: ' + age : ''}
-║│➸XP: TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Siap untuk *${usedPrefix}levelup*` : `${math} XP lagi untuk levelup`}]
-║│➸🎚️Level: ${level}
-║│➸Role: *${role}*
-║│➸Limit: ${limit}
-║│➸📠Terdaftar: ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'}${lastclaim > 0 ? '\nTerakhir Klaim: ' + new Date(lastclaim).toLocaleString() : ''}
+║╭──❉ ✧──────────[ *PROFILE* ]──────────✧
+📇 • *Name:* ${username} ${registered ? '(' + name + ') ': ''}
+📧 • *Tag:* @${who.replace(/@.+/, '')}
+📞 • *Number:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+💻 • *Link:* https://wa.me/${who.split`@`[0]}
+${registered ? '🎨 • *Age:* ' + age : ''}
+${about ? '🗒️ • *About:* ' + about : ''}
+
+🌟 • *Premium:* ${premium ? "✅" :"❌"}
+📑 • *Registered:* ${registered ? '✅': '❌'}
+⛔ • *Banned:* ❌
+
 ╰─────────❉
 `.trim()
     let mentionedJid = [who]
