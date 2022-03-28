@@ -5,8 +5,7 @@ let handler = async (m, { conn, text }) => {
   conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_\nestimasi selesai ${groups.length * 1.5} detik`, m)
   for (let id of groups) {
     await delay(1500)
-    await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast/i.test(teks) ? teks : '*——————「 Broadcast 」——————*\n' + text, watermark + `\n\n${time}`, '⋮☰ Menu', '.menu', 'Donasi', '.donasi')
-    }
+    await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast/i.test(teks) ? teks : '〔 zifabotz Broadcast 〕\n\n' + teks + '\n\n' + watermark), true).catch(_ => _)
   }
   m.reply('_*Broadcast Selesai*_')
 }
