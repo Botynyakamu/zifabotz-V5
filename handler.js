@@ -481,7 +481,7 @@ global.dfail = (type, m, conn) => {
     rowner: '*LU BUKAN OWNER GW COK🗿*',
     owner: '*LU BUKAN OWNER GW COK🗿*',
     premium: '*LU BUKAN MEMBER PREMIUM😑*',
-    group: '*CUMAN KHUSUS GRUB DOANG😐',
+    group: '*CUMAN KHUSUS GRUB DOANG😐*',
     private: '*CHAT PRIBADI AJA😑*',
     admin: '*LU AJA BUKAN ADMIN🗿*',
     botAdmin: '*GW AJA BUKAN ADMIN😑*',
