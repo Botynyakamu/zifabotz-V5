@@ -406,7 +406,7 @@ module.exports = {
               let poi = await(await fetch('https://telegra.ph/file/e8a205ef7a8fcff0de975.jpg')).buffer()
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
                   (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-                let wel = `Welcome Message`
+                let wel = `━━━━━━ *Welcome* ━━━━━━`
                 let lea = `Group Participant Leave`
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
                 mentionedJid: [user],
