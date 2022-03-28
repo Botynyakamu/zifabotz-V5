@@ -234,7 +234,7 @@ _____•••••••••
 (_𝙱𝚎𝚋𝚎𝚛𝚊𝚙𝚊 𝚋𝚞𝚝𝚝𝚘𝚗 𝚊𝚍𝚊 𝚢𝚐 𝚐𝚊𝚔 𝚋𝚎𝚛𝚏𝚞𝚗𝚐𝚜𝚒_)
 
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
-                        "footerText": "group off bot https://bit.ly/3IKkoym",
+                        "footerText": "*group offc bot https://bit.ly/3IKkoym*",
                         "buttonText": "««TAMPILAN MENU««",
                         "listType": "SINGLE_SELECT",
                         "sections": [
