@@ -1,24 +1,10 @@
-let handler  = async (m, { conn, usedPrefix: _p }) => {
-ye = `@${m.sender.split`@`[0]}`
-let info = `*beli cok beli jgan gratisan Mulu🗿*.
-• 
-`.trim()
+let handler = async (m, { conn }) => {
+let caption = `BELI SC? SILAHAKN KLIK DI BAWAH!!`
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', `*${global.packname}*`, 'status@broadcast') 
-}
-handler.help = ['github']
-handler.tags = ['info']
-handler.command = ['script', 'sc', 'scbot', 'github']
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
+conn.sendButton( m.chat, caption, `©️ zifabotz`, `Beli sc`, `.owner`, m)
 
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 25
-
+       }
+       
+handler.customPrefix = /^(.sc|.script|.beli sc|.beli)/i
+handler.command = new RegExp
 module.exports = handler
