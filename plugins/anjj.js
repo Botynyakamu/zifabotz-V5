@@ -1,0 +1,10 @@
+let handler = async (m, { conn }) => {
+let caption = `anjir toxic🗿 awokawokaowk truskan bakat mu`
+
+conn.sendButton( m.chat, caption, `©️ zifabotz`, `>>anjay slibaw<<`, `.👍`, m)
+
+       }
+       
+handler.customPrefix = /^(anjing|anjj|anj|babi|bab1)/i
+handler.command = new RegExp
+module.exports = handler
