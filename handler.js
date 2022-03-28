@@ -406,8 +406,8 @@ module.exports = {
               let poi = await(await fetch('https://telegra.ph/file/e8a205ef7a8fcff0de975.jpg')).buffer()
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
                   (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-                let wel = `━━━━━━ *Welcome* ━━━━━━`
-                let lea = `━━━━━━ *Good Bye* ━━━━━━`
+                let wel = `━━━━━━ Welcome ━━━━━━`
+                let lea = `━━━━━━ Good Bye ━━━━━━`
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
                 mentionedJid: [user],
                 externalAdReply: {
@@ -421,9 +421,9 @@ module.exports = {
           }
           break
       case 'promote':
-        text = (chat.sPromote || this.spromote || conn.spromote || '@user sekarang Admin')
+        text = (chat.sPromote || this.spromote || conn.spromote || '@user ciee sekarang di Adminin')
       case 'demote':
-        if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user sekarang bukan Admin')
+        if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user lu sekarang bukan Admin lagi cok')
         text = text.replace('@user', '@' + participants[0].split`@`[0])
         if (chat.detect) this.sendMessage(jid, text, MessageType.extendedText, {
           contextInfo: {
@@ -478,13 +478,13 @@ ketik *.on delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'This command only can used by _*Owner!*_\nPerintah ini hanya dapat digunakan oleh _*Owner!*_.',
-    owner: 'This command only can used by _*Owner!*_\nPerintah ini hanya dapat digunakan oleh _*Owner!_*.',
-    premium: 'This command only can used by _*Premium Users.*_\nPerintah ini hanya dapat digunakan oleh _*User Premium.*_',
-    group: 'This command only can used in Group.\nPerintah ini hanya dapat digunakan di Group.',
-    private: 'This command only can used in Private Chat.\nPerintah ini hanya dapat digunakan di Chat Pribadi.',
-    admin: 'This command only can used by *Group Admin.*\nPerintah ini hanya dapat digunakan oleh *Admin Group.*',
-    botAdmin: 'Make the bot number as a group admin to use this command.\nJadikan bot sebagai admin untuk menggunakan perintah ini.',
+    rowner: '*LU BUKAN OWNER GW COK🗿*',
+    owner: '*LU BUKAN OWNER GW COK🗿*',
+    premium: '*LU BUKAN MEMBER PREMIUM😑*',
+    group: '*CUMAN KHUSUS GRUB DOANG😐',
+    private: '*CHAT PRIBADI AJA😑*',
+    admin: '*LU AJA BUKAN ADMIN🗿*',
+    botAdmin: '*GW AJA BUKAN ADMIN😑*',
     unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n.daftar',
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
   }[type]
