@@ -245,7 +245,7 @@ _____•••••••••
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Profile╼-",
-                                    "description": "indentitas kamu di zifabotz.",
+                                    "description": "ERORR.",
                                     "rowId": ".profile"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
