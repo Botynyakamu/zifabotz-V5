@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 ye = `@${m.sender.split`@`[0]}`
-let info = `*coding sendirilah kontol punya tangankan🗿*.
+let info = `*beli cok beli jgan gratisan Mulu🗿*.
 • 
 `.trim()
 
