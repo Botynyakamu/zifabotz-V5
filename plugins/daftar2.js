@@ -1,7 +1,7 @@
 let handler = async (m, { conn }) => {
-let caption = `hanya bisa di gunakan di bot utama`
+let caption = `hanya bisa di gunakan di chat pribadi karna demi kepribadian anda`
 
-conn.sendButton( m.chat, caption, `©️ zifabotz`, `>>chat bot utama untuk daftar<<`, `.botutama`, m)
+conn.sendButton( m.chat, caption, `©️ zifabotz`, `>>Oky ngab<<`, `.👍`, m)
 
        }
        
