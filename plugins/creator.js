@@ -20,7 +20,7 @@ let name4 = '@⳹ ❋ཻུ۪۪CREATOR ZIFABOTZ⳹ ❋ཻུ۪۪)'
   number4 = owner[3].replace(/[^0-9]/g, '')
   let njid4 = number4 + '@s.whatsapp.net'
   let onW4 = await this.isOnWhatsApp(njid4) || { isBusiness: false }
-  this.send2Button(m.chat, `*Ngapain cari owner??*\n\nMau donasi/sewa DLL?.\nDi harapkan tidak menelpon/menyepam no owner.`, name4, 'Menu', '.menu', 'Group Bot', '.gcbot', m)
+  this.send2Button(m.chat, `*Ngapain cari owner??*\n\nMau donasi/sewa DLL?.\nDi harapkan tidak menelpon/menyepam no owner. Kalau owner satunya gak ngerspon SILAHAKN hubungi owner lainnya`, name4, 'Menu', '.menu', 'Group Bot', '.gcbot', m)
   this.sendMessage(m.chat, {
     contacts: [{
       displayname: name, vcard: `
