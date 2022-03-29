@@ -225,14 +225,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-║│➸zifabotz
+║│➸ Nama bot: *%me*
 ║│➸ *${conn.blocklist.length}* Terblock
 ║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰─────────❉
 _____••••••••• 
-(_𝙱𝚎𝚋𝚎𝚛𝚊𝚙𝚊 𝚋𝚞𝚝𝚝𝚘𝚗 𝚊𝚍𝚊 𝚢𝚐 𝚐𝚊𝚔 𝚋𝚎𝚛𝚏𝚞𝚗𝚐𝚜𝚒_)
-
+⬣━〔Powered By Rozi〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
                         "footerText": "*group offc bot https://bit.ly/3IKkoym*",
                         "buttonText": "««TAMPILAN MENU««",
@@ -244,9 +243,9 @@ _____•••••••••
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title":      "|🖼️| ❯╾Profile╼-",
-                                    "description": "ERORR.",
-                                    "rowId": ".profile"
+                                    "title":      "|🖼️| ❯╾Daftar╼-",
+                                    "description": "Daftar diri anda di zifabotz",
+                                    "rowId": ".daftar"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
                                     "description": "bergabung bersama bot zifa",
