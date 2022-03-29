@@ -15,7 +15,7 @@ let handler = async (m, { conn, text }) => {
 ║│➸ *No.Bot* : wa.me/6285828764046
 ║│➸ *Chanel Youtube* : GAK ADA
 ║│➸ *Gmail* : roziganteng559@gmail.com
-║│➸ *Github* : https://github.com/Botynyakamu 
+║│➸ *Github* : *CARI SENDIRI JAGAN MANJA*
 ║╰────────────────
 ╰═════════════════
 _Oke udah itu aja terimakasih_
