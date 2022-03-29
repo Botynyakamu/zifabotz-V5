@@ -14,10 +14,10 @@ let handler = async(m, { conn }) => {
 ╰═══════════════════════
 `.trim()
     const button = {
-        buttonText: 'List Harga',
+        buttonText: 'jasa run',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: 'Owner', description: "Chat owner nya jika ingin sewa bot.", rowId:".owneraziz"},
+        {title: 'Owner', description: "Chat owner nya jika ingin sewa bot.", rowId:".ownermursid"},
         {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
        ] }],
         listType: 1
