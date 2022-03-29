@@ -32,7 +32,7 @@ https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
 18) kalau udah di hapus, tempel session kamu
 19) terus kalau udah geser ke bawah,trus pilih commit changed
 20) klik tombol home 3 kali sampai kembali ke halaman utama github
-11) *edit aja yang lain"nya sendiri* ( JANGAN SAMPAI ERORR )
+21) *edit aja yang lain"nya sendiri* ( JANGAN SAMPAI ERORR )
 
 *▸ Penginstal :*
 Buka halaman HEROKU => https://heroku.com
