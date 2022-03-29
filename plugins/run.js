@@ -5,7 +5,7 @@ let handler = async(m, { conn }) => {
 ╭═══ 〔 𝐋𝐈𝐒𝐓 𝐁𝐄𝐑𝐋𝐀𝐍𝐆𝐆𝐀𝐍𝐀𝐍 〕 ════
 ├⬡ PERMANEN
 └═══════════════
-𝗦𝗶𝗹𝗮𝗵𝗸𝗮𝗻 𝗸𝗹𝗶𝗸 𝗽𝗮𝗱𝗮 "𝗟𝗶𝘀𝘁 𝗛𝗮𝗿𝗴𝗮" 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗹𝗶𝘀𝘁.
+*_SILAHKAN KLIK "jasa run "_*
 ╭═══════════════════════
 ║╭──❉ 〔 𝐕𝐈𝐀 𝐌𝐎𝐁𝐈𝐋𝐄 〕 ❉──────
 ║│➸ *DANA*: 088233832771
@@ -17,7 +17,7 @@ let handler = async(m, { conn }) => {
         buttonText: 'jasa run',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: 'Owner', description: "Chat owner nya jika ingin sewa bot.", rowId:".ownermursid"},
+        {title: 'Owner', description: "Chat owner nya jika ingin jasa run.", rowId:".ownermursid"},
         {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
        ] }],
         listType: 1
