@@ -5,7 +5,9 @@ let handler = async(m, { conn }) => {
 ╭═══ 〔 𝐋𝐈𝐒𝐓 𝐁𝐄𝐑𝐋𝐀𝐍𝐆𝐆𝐀𝐍𝐀𝐍 〕 ════
 ├⬡ PERMANEN
 └═══════════════
-*_SILAHKAN KLIK "jasa run "_*
+*_SILAHKAN KLIK  "jasa run"_*
+
+Note: *SIAPKAN SC SENDIRI*
 ╭═══════════════════════
 ║╭──❉ 〔 𝐕𝐈𝐀 𝐌𝐎𝐁𝐈𝐋𝐄 〕 ❉──────
 ║│➸ *DANA*: 088233832771
