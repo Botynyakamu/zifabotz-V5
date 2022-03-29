@@ -247,6 +247,10 @@ _____•••••••••
                                     "description": "Daftar diri anda di zifabotz",
                                     "rowId": ".daftar"
                                 }, {
+"title":      "|🛒| ❯╾Iklan╼-",
+                                    "description": "iklan di zifabotz",
+                                    "rowId": ".iklan"
+                                }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
                                     "description": "bergabung bersama bot zifa",
                                     "rowId": ".jadibot"
