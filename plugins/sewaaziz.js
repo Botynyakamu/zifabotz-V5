@@ -20,9 +20,9 @@ let handler = async(m, { conn }) => {
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '1 Bulan', description: "Rp25.000\nSewa bot selama 4 bulan.", rowId:".payment"},
-        {title: '2 Bulan', description: "Rp30.000\nSewa bot selama 1 bulan.", rowId:".payment"},
-        {title: '1 Minggu', description: "Rp10.000\nSewa bot selama 8 bulan.", rowId:".payment"},
+        {title: '1 Bulan', description: "Rp25.000\nSewa bot selama 4 bulan.", rowId:".owneraziz"},
+        {title: '2 Bulan', description: "Rp30.000\nSewa bot selama 1 bulan.", rowId:".owneraziz"},
+        {title: '1 Minggu', description: "Rp10.000\nSewa bot selama 8 bulan.", rowId:".owneraziz"},
         {title: 'Owner', description: "Chat owner nya jika ingin sewa bot.", rowId:".owneraziz"},
         {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
        ] }],
