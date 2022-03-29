@@ -7,7 +7,7 @@ let str = `
 https://github.com ( *BUAT AKUN GITHUB DULU* ) => sesuaikan Imail anda
 https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
 
-▸ *Untuk Sc nya cari sendiri, atau beli sc ku ( SC KU SERING MENAMBAH FITUR )*
+▸ *Untuk Sc nya cari sendiri, atau pakai sc ku ( SC KU SERING MENAMBAH FITUR )*
 
 ▸ *scan kode untuk mengambil session*
 1) Buka yt => Cara mengambil session tanpa termux ( AMBIL DI YT ZEEONEOFC )
