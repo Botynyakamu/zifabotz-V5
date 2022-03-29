@@ -4,10 +4,7 @@ let handler = async(m, { conn }) => {
     let kontol = `
 ╭─────[ *IKLAN BOT* ]─────✧
 ┴
-│ IKALAN BOT BERBAYAR 10K PERMANEN
-│ BAYAR LANGSUNG DI BUATIN
-│ TIDAK MENERIMA HUTANG
-│ KALAU MAU PASANG IKLAN SILAHKAN CHT OWMER
+│ *IKALAN ZIFABOTZ*
 ┬
 ╰──────────···`.trim()
   const button = {
@@ -16,9 +13,9 @@ let handler = async(m, { conn }) => {
         sections:  [{title: "Silahkan di pilih gausah pilih yang gaada", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'Sewa zifabotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
-        {title: 'Group Bot', description: "Official Group Bot zifabotz", rowId:".gcbot"},
-        {title: 'Donasi', description: "Donasi agar selalu online", rowId:".donasi"},
-        {title: 'Owner', description: "Owner/Creator Bot", rowId:".owner"},
+        {title: 'Sewa azizbotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
+        {title: 'Jasa run mursid', description: "jasa run bot", rowId:".jasarun"},
+        {title: 'Owner', description: "Owner zifabotz", rowId:".owner"},
        ] }],
         listType: 1
        }
