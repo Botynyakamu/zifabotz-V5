@@ -12,7 +12,7 @@ let handler = async (m, { conn, text }) => {
 ╭════════════════
 ║╭──❉ *𝐒𝐎𝐒𝐈𝐀𝐋 𝐌𝐄𝐃𝐈𝐀* ❉───
 ║│➸ *No.Owner* : wa.me/6285828764046
-║│➸ *No.Bot* : wa.me/6285828764046
+║│➸ *No.Bot* : "tidak di ketahui"
 ║│➸ *Chanel Youtube* : GAK ADA
 ║│➸ *Gmail* : roziganteng559@gmail.com
 ║│➸ *Github* : *CARI SENDIRI JAGAN MANJA*
@@ -21,7 +21,7 @@ let handler = async (m, { conn, text }) => {
 _Oke udah itu aja terimakasih_
 
 `.trim()
-conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Raditya')).buffer(), ext, 'zifabotz', 'Nomor Owner', '.owner', 'Donasi', '.donasi', 'Sewa Bot', '.sewa', m)
+conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Raditya')).buffer(), ext, 'zifabotz', 'Nomor Owner', '.owner', 'Donasi', '.donasi', 'Sewa Bot', '.sewazifa', m)
 
 }
 handler.help = ['infoowner', 'infocreator']
