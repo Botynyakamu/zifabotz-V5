@@ -13,8 +13,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 	if (isClose === undefined) {
 		await conn.send2Button(m.chat, `
 contoh:
-${usedPrefix + command} tutup
-${usedPrefix + command} buka
+*PLIH SALAH SATU!!*
 	`.trim(), watermark, 'Buka', ',grup 1', 'Tutup', ',grup 0')
 		throw false
 	}
