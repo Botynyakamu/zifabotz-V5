@@ -15,7 +15,7 @@ https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv
 
 handler.help = ['inforozi']
 handler.tags = ['main', 'utama']
-handler.command = /^(infoary)$/i
+handler.command = /^(inforozi)$/i
 
 handler.exp = 150
 
