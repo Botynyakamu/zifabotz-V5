@@ -2,7 +2,7 @@
 <img src="https://telegra.ph/file/7e131dda0a92d105f529a.jpg" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 </p>
-<h1 align="center">ZIFABOTZ</h1>
+<h1 align="center">SC HANYA RECODE,SC ASLI ADA DI R-Txyz-V1</h1>
 
 <h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
