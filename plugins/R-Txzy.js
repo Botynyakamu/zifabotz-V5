@@ -1,7 +1,7 @@
 let handler = async (m, { conn }) => {
-let caption = `*TANYA KE OWNER AJA COK,GW GAK TAU!*`
+let caption = `*BOT INI MENGGUNAKAN SC DARI https://github.com/Botynyakamu/Rzy.botz-M1*`
 
-conn.sendButton( m.chat, caption, `©️ zifabotz`, `Otw tanya owner`, `.owner`, m)
+conn.sendButton( m.chat, caption, `©️ zifabotz`, `thankyou`, `makasih`, m)
 
        }
        
