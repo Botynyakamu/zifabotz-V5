@@ -390,7 +390,7 @@ _____•••••••••
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
-"title": "|⏳|─────「28」",
+"title": "|⏳|─────「 28 」",
                                     "description": "runtime bot",
                                     "rowId": ".runtime"
                                 }, { 
