@@ -1,7 +1,7 @@
 // Thanks For Allah
 // AlyaaXzy
 // BOTCAHX
-
+// Zifabotz
 
 let fs = require('fs')
 global.owner = ['6285828530078', '6285828530078','6285828530078', '6285828530078', '6285828530078'] // Letakan nomor kamu disini
