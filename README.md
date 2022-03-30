@@ -116,7 +116,7 @@ Simple WhatsApp Bot
 [![Rozi](https://img.shields.io/badge/WhatsApp%20Rozi-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285828764046/)
 [![Owner Zifabotz](https://img.shields.io/badge/WhatsApp%20Ownerzifabotz-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285828530078/)
 
-[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Kannachann](https://github.com/Kannachann.png?size=100)](https://github.com/Kannachann)
+[![BOTCAHX](https://github.com/BOTCAX.png?size=100)](https://github.com/BOTCAHX) | [![ALYA](https://github.com/AlyaaXd.png?size=100)](https://github.com/AlyaaXd) | [![ZIFABOTZ](https://github.com/Botynyakamu.png?size=100)](https://github.com/botynyakamu)
 ----|----|----
 [BOTCAHX](https://github.com/BOTCAX) | [ALYA](https://github.com/AlyaaXd) | [ZIFABOTZ](https://github.com/Botynyakamu)
  Penulis / Pencipta | Penulis / pencipta | recode
