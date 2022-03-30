@@ -41,7 +41,8 @@
 > node run.js
 ```
 
-# Run On Heroku
+## Run Heroku
+```bash
 ▸ Ketik di *[CHROME]*
 https://github.com ( *BUAT AKUN GITHUB DULU* ) => sesuaikan Imail anda
 https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
@@ -49,7 +50,7 @@ https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
 ▸ *Untuk Sc nya cari sendiri, atau pakai sc ku ( SC KU SERING MENAMBAH FITUR )*
 
 ▸ *scan kode untuk mengambil session*
-1) Buka yt => Cara mengambil session tanpa termux ( AMBIL DI YT ZEEONEOFC )
+1) Buka yt => Cara mengambil session tanpa termux atau bisa pakai replit di bawah
 2) biasanya link untuk scan ada di pin komen
 3) trus pakai mode desktop
 4) ada di atas tombol yg hijau klik aja
