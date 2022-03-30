@@ -43,13 +43,13 @@
 
 ## Run Heroku
 ```bash
-▸ Ketik di *[CHROME]*
-https://github.com ( *BUAT AKUN GITHUB DULU* ) => sesuaikan Imail anda
+▸ Ketik di [CHROME]
+https://github.com ( BUAT AKUN GITHUB DULU ) => sesuaikan Imail anda
 https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
 
-▸ *Untuk Sc nya cari sendiri, atau pakai sc ku ( SC KU SERING MENAMBAH FITUR )*
+▸ Untuk Sc nya cari sendiri, atau pakai sc ku ( SC KU SERING MENAMBAH FITUR )
 
-▸ *scan kode untuk mengambil session*
+▸ scan kode untuk mengambil session
 1) Buka yt => Cara mengambil session tanpa termux atau bisa pakai replit di bawah
 2) biasanya link untuk scan ada di pin komen
 3) trus pakai mode desktop
@@ -58,7 +58,7 @@ https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
 6) kalau dah keluar scan aja
 7) session di kirim di WhatsApp centang ijo,kalian salin aja
 
-▸ *Github*
+▸ Github
 8) kalau SC nya sudah ketemu kalian klik aja link SC nya
 9) pakai mode desktop
 10) trus fork di atas pojok kanan
@@ -72,9 +72,9 @@ https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
 18) kalau udah di hapus, tempel session kamu
 19) terus kalau udah geser ke bawah,trus pilih commit changed
 20) klik tombol home 3 kali sampai kembali ke halaman utama github
-21) *edit aja yang lain"nya sendiri* ( JANGAN SAMPAI ERORR )
+21) edit aja yang lain"nya sendiri ( JANGAN SAMPAI ERORR )
 
-*▸ Penginstal :*
+▸ Penginstal :
 Buka halaman HEROKU => https://heroku.com
  *LIAT YT AJA,GW LUPA SOALNYA*
 ( JAGAN LUPA BUILDPACK NYA )
