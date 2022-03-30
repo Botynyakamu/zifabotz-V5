@@ -12,7 +12,7 @@ let handler = async(m, { conn }) => {
         description: kontol,
         sections:  [{title: "Silahkan di pilih gausah pilih yang gaada", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: 'Sewa zifabotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
+        {title: 'Sewa zifabotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewazifa"},
         {title: 'Sewa azizbotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewaaziz"},
         {title: 'Jasa run mursid', description: "jasa run bot", rowId:".jasarun"},
         {title: 'Owner', description: "Owner zifabotz", rowId:".owner"},
