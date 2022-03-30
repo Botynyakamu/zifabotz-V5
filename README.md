@@ -45,7 +45,7 @@
 ```bash
 ▸ Ketik di [CHROME]
 https://github.com ( BUAT AKUN GITHUB DULU ) => sesuaikan Imail anda
-https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
+https://heroku.com ( BUAT AKUN HEROKU DULU ) => sesuaikan Imail anda
 
 ▸ Untuk Sc nya cari sendiri, atau pakai sc ku ( SC KU SERING MENAMBAH FITUR )
 
@@ -76,7 +76,7 @@ https://heroku.com ( *BUAT AKUN HEROKU DULU* ) => sesuaikan Imail anda
 
 ▸ Penginstal :
 Buka halaman HEROKU => https://heroku.com
- *LIAT YT AJA,GW LUPA SOALNYA*
+ LIAT YT AJA,GW LUPA SOALNYA
 ( JAGAN LUPA BUILDPACK NYA )
 ```
 
@@ -110,4 +110,4 @@ Simple WhatsApp Bot
 
 # Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
-~ Selamat Memakai~
+~ Selamat Memakai Guys~
