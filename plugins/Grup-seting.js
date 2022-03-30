@@ -4,7 +4,7 @@ conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                         "title": `Hai Kak ${conn.getName(m.sender)}\n*setelan grub*`,
                         "description": "\n\n*@zifabotz*",
                         "footerText": "jika ada bug atau erorr Jangan tanya saya,karna saya juga gak tau.",
-                        "buttonText": "*KLIK DISINI*",
+                        "buttonText": "*SETELAN GRUB*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
