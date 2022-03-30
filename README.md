@@ -118,8 +118,8 @@ Simple WhatsApp Bot
 
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Kannachann](https://github.com/Kannachann.png?size=100)](https://github.com/Kannachann)
 ----|----|----
-[Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Kannachann](https://github.com/Kannachann)
- Penulis / Pencipta | Penulis ulang Ke-1 | Penulis ulang Ke-2
+[BOTCAHX](https://github.com/BOTCAX) | [ALYA](https://github.com/AlyaaXd) | [ZIFABOTZ](https://github.com/Botynyakamu)
+ Penulis / Pencipta | Penulis / pencipta | recode
 
 # Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
