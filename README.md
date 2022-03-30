@@ -69,7 +69,7 @@ Simple WhatsApp Bot
 
  [`BOTCAHX`](https://wa.me/6282221792667)
 
- [`ZIFABOTZ`](https://wa.me/6285828764046
+ [`ZIFABOTZ`](https://wa.me/6285828764046)
 
 # Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
