@@ -31,7 +31,7 @@ let handler = async(m, { conn }) => {
         description: kontol,
         sections:  [{title: "Silahkan di pilih gausah pilih yang gaada", rows: [
         {title: 'Menu Utama', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: 'Sewa Bot', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
+        {title: 'Sewa Bot', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewazifa"},
         {title: 'Group Bot', description: "Official Group Bot zifabotz", rowId:".gcbot"},
         {title: 'Donasi', description: "Donasi agar selalu online", rowId:".donasi"},
         {title: 'Owner', description: "Owner/Creator Bot", rowId:".owner"},
