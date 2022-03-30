@@ -37,14 +37,14 @@
 > pkg install bash
 > pkg install ffmpeg
 > pkg install libwebp
-> git clone https://github.com/Botynyakamu/Rzy-botz-M1
-> cd Rzy-botz-M1
+> git clone https://github.com/Botynyakamu/zifabotz-V2
+> cd zifabotz-V2
 > npm i
 > node run.js
 # Untuk Sdcard (File Sudah Di Download)
 > cd /sdcard
-> cp -r Rzy-botz-M1 $HOME
-> cd Rzy-botz-M1
+> cp -r zifabotz-V2 $HOME
+> cd zifabotz-V2
 > npm i
 > node run.js
 ```
