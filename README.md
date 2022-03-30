@@ -2,7 +2,7 @@
 <img src="https://telegra.ph/file/4637101da58e21976363b.jpg" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 </p>
-<h1 align="center">AlyaaXzy X BOTCAH™</h1>
+<h1 align="center">ZIFABOTZ</h1>
 
 <h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
