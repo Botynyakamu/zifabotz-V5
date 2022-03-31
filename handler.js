@@ -485,7 +485,7 @@ global.dfail = (type, m, conn) => {
     private: '*CHAT PRIBADI AJA😑*',
     admin: '*LU AJA BUKAN ADMIN🗿*',
     botAdmin: '*GW AJA BUKAN ADMIN😑*',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n.daftar',
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n.daftar zifa.19',
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
   }[type]
   if (msg) return m.reply(msg)
