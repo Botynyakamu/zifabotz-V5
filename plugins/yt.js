@@ -3,17 +3,17 @@ let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&s
 let botol = global.botwm
 let str = `
 ╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪TIKTOK⳹ ❋ཻུ۪۪ 〕 ❉────── 
-║│➸ *_TIKTOK OWNER_*
-║│➸  *https://vt.tiktok.com/ZSd28Ttq1/*
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪YOUTUBE⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║│➸ *_YOUTUBE OWNER_*
+║│➸  *https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ*
 ╰─────────❉
 ▌│█║▌║▌║║▌║▌║█│▌
 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪⸙ by.rozi
 `.trim()
 conn.sendButton(m.chat, str, `${botol}`, `⋮☰ Menu`, `.menu`, m)
 }
-handler.help = ['tiktok']
+handler.help = ['youtube']
 handler.tags = ['info']
-handler.command = /^tt$/i
+handler.command = /^yt$/i
 
 module.exports = handler
