@@ -251,8 +251,8 @@ _____•••••••••
                                     "description": "setelan grub",
                                     "rowId": ".setelangrub"
                                 }, {
-"title":      "|🛒| ❯╾Iklan╼-",
-                                    "description": "iklan di zifabotz",
+"title":      "|🛒| ❯╾Store Menu╼-",
+                                    "description": "store di zifabotz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
