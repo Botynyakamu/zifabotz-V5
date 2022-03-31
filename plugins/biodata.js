@@ -10,12 +10,12 @@ let handler = async(m, { conn }) => {
   const button = {
         buttonText: 'tentang owner',
         description: kontol,
-        sections:  [{title: "pilih aje coek,jgan cari yg gk ada", rows: [
-        {title: '*_Menu utama_*', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: '*_ASAL KOTA_*', description: "asal tempat owner", rowId:".asal"},
-        {title: '*_GITHUB_*', description: "Github owner", rowId:".github"},
-        {title: '*_YOUTUBE_*', description: "chenel owner", rowId:".yt"},
-        {title: '*_TIKTOK_*', description: "TIKTOK owner", rowId:".tt"},
+        sections:  [{title: "YUK KENALAN SAMA OWNER", rows: [
+        {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
+        {title: 'ASAL KOTA', description: "asal tempat owner", rowId:".asal"},
+        {title: 'GITHUB', description: "Github owner", rowId:".github"},
+        {title: 'YOUTUBE', description: "chenel owner", rowId:".yt"},
+        {title: 'TIKTOK', description: "TIKTOK owner", rowId:".tt"},
        ] }],
         listType: 1
        }
