@@ -8,14 +8,14 @@ let handler = async(m, { conn }) => {
 ┬
 ╰──────────···`.trim()
   const button = {
-        buttonText: 'IKLAN ZIFABOTZ',
+        buttonText: '🛒STORE ZIFABOTZ🛒',
         description: kontol,
-        sections:  [{title: "Silahkan di pilih gausah pilih yang gaada", rows: [
-        {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: 'Sewa zifabotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewazifa"},
-        {title: 'Sewa azizbotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewaaziz"},
-        {title: 'Jasa run mursid', description: "jasa run bot", rowId:".jasarun"},
-        {title: 'Owner', description: "Owner zifabotz", rowId:".owner"},
+        sections:  [{title: "pilih aje coek,jgan cari yg gk ada", rows: [
+        {title: '*_Menu utama_*', description: "Kembali ke Menu Utama", rowId:".?"},
+        {title: '*_Sewa zifabotz_*', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewazifa"},
+        {title: '*_Sewa azizbotz_*', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewaaziz"},
+        {title: '*_Jasa run mursid_*', description: "jasa run bot", rowId:".jasarun"},
+        {title: '*_RULES_*', description: "rules zifabotz", rowId:".rules"},
        ] }],
         listType: 1
        }
