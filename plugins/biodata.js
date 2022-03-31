@@ -1,41 +1,28 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, text }) => {
-  let ext= `
-╭═════════════════
-║╭──❉ *𝐁𝐈𝐎𝐃𝐀𝐓𝐀 𝐎𝐖𝐍𝐄𝐑* ❉───
-║│➸ *Nama* : rozi ( nama samaran ) 
-║│➸ *Umur* : 15
-║│➸ *Kelas* :  9 SMP
-║│➸ *Status* : butuh ayng AWOKAWOK
-║╰───────────────
-╰════════════════
-╭════════════════
-║╭──❉ *𝐒𝐎𝐒𝐈𝐀𝐋 𝐌𝐄𝐃𝐈𝐀* ❉───
-║│➸ *No.Owner* : wa.me/6285828764046
-║│➸ *No.Bot* : "tidak di ketahui"
-║│➸ *Chanel Youtube* : GAK ADA
-║│➸ *Gmail* : roziganteng559@gmail.com
-║│➸ *Github* : *CARI SENDIRI JAGAN MANJA*
-║╰────────────────
-╰═════════════════
-_Oke udah itu aja terimakasih_
-
-`.trim()
-conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Raditya')).buffer(), ext, 'zifabotz', 'Nomor Owner', '.owner', 'Donasi', '.donasi', 'Sewa Bot', '.sewazifa', m)
-
+let { MessageType } = require('@adiwajshing/baileys')
+let handler = async(m, { conn }) => {
+    let kontol = `
+╭─────[ *_INFORMASI OWNER_* ]─────✧
+┴
+│ *🎀YUK SALING KENAL SAMA OWNER🎀*
+┬
+╰──────────···`.trim()
+  const button = {
+        buttonText: 'tentang owner',
+        description: kontol,
+        sections:  [{title: "pilih aje coek,jgan cari yg gk ada", rows: [
+        {title: '*_Menu utama_*', description: "Kembali ke Menu Utama", rowId:".?"},
+        {title: '*_ASAL KOTA_*', description: "asal tempat owner", rowId:".asal"},
+        {title: '*_GITHUB_*', description: "Github owner", rowId:".github"},
+        {title: '*_YOUTUBE_*', description: "chenel owner", rowId:".yt"},
+        {title: '*_TIKTOK_*', description: "TIKTOK owner", rowId:".tt"},
+       ] }],
+        listType: 1
+       }
+    conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
 }
-handler.help = ['infoowner', 'infocreator']
-handler.tags = ['info']
-handler.command = /^(infoowner|infocreator)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
 
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-
+handler.tags = ['main', 'update']
+handler.command = /^(infoowner|biodata)$/i
+handler.help = ['rules']
 module.exports = handler
