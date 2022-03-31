@@ -5,7 +5,7 @@ let str = `
 ╭═══════════════════════
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪TIKTOK⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸ *_TIKTOK OWNER_*
-║│➸  *https://github.com/Botynyakamu*
+║│➸  *https://vt.tiktok.com/ZSd28Ttq1/*
 ╰─────────❉
 ▌│█║▌║▌║║▌║▌║█│▌
 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪⸙ by.rozi
