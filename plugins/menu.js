@@ -247,7 +247,7 @@ _____•••••••••
                                     "description": "Daftar diri anda di zifabotz",
                                     "rowId": ".daftar"
                                 }, {
- "title":      "|⚙️| ❯╾Setelan grub╼-",
+ "title":      "|🎲| ❯╾Setelan grub╼-",
                                     "description": "setelan grub",
                                     "rowId": ".setelangrub"
                                 }, {
