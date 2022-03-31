@@ -282,7 +282,7 @@ _____•••••••••
                                     "description": "Menu Tentang Islam",
                                     "rowId": ".? quran"
                                 }, {
- "title": "|📖|─────「1」",
+ "title": "|📖|─────「 1 」",
                                     "description": "Menu doaharian",
                                     "rowId": ".doaharian"
                                 }, {
