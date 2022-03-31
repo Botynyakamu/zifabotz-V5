@@ -14,7 +14,7 @@ let handler = async(m, { conn }) => {
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'ASAL KOTA', description: "asal tempat owner", rowId:".asal"},
         {title: 'GITHUB', description: "Github owner", rowId:".github"},
-        {title: 'YOUTUBE', description: "chenel owner", rowId:".yt"},
+        {title: 'YOUTUBE', description: "chenel owner", rowId:".ytzi"},
         {title: 'TIKTOK', description: "TIKTOK owner", rowId:".tt"},
        ] }],
         listType: 1
