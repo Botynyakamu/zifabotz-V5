@@ -12,8 +12,8 @@ let str = `
 `.trim()
 conn.sendButton(m.chat, str, `${botol}`, `⋮☰ Menu`, `.menu`, m)
 }
-handler.help = ['youtube']
+handler.help = ['yutube']
 handler.tags = ['info']
-handler.command = /^yt$/i
+handler.command = /^ytzi$/i
 
 module.exports = handler
