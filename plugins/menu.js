@@ -379,7 +379,7 @@ _____•••••••••
                                     "rowId": ".? audio"
                                 }, { 
                                     "title": "|🤖|─────「 25 」",
-                                    "description": "Jadi Bot",
+                                    "description": "menu khusus Jadi Bot",
                                     "rowId": ".? jadibot"
                                 }, { 
                                     "title": "|⛩️|─────「 26 」",
@@ -398,9 +398,9 @@ _____•••••••••
                                     "description": "tag diri sendiri",
                                     "rowId": ".tagme"
                                 }, { 
-"title": "|👾|─────「 30 」",
-                                    "description": "inventory kamu",
-                                    "rowId": ".inv"
+"title": "|🎎|─────「 30 」",
+                                    "description": "gambar waifu",
+                                    "rowId": ".waifu"
                                 }, { 
                                     "title": "|👩‍⚖️|─────「 31 」",
                                     "description": "Menu Khusu Owner",
