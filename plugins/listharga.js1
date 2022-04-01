@@ -1,21 +1,20 @@
 let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
-    let kontol = `╭─────[ *HARGA JASA RUN* ]─────✧
+    let kontol = `
+╭─────[ *HARGA JASA RUN* ]─────✧
 ┴
-| 📮: *CARI SC SENDIRI*
-| HARGA KLIK DI BAWAH
+│ *📮: HARAP CARI SC TERLEBIH DAHULU*
 ┬
 ╰──────────···`.trim()
   const button = {
-        buttonText: 'Klik Di sini',
+        buttonText: 'harga run',
         description: kontol,
-        sections:  [{title: "Silahkan di pilih harganya", rows: [
-        {title: 'jasa run 1', description: "run bot tanpa di edit", rowId:".jasarun1"},
-        {title: 'jasa run 2', description: "run bot di edit", rowId:".jasarun2"},
-        {title: 'Group Bot', description: "Official Group Bot zifabotz", rowId:".gcbot"},
-        {title: 'Donasi', description: "Donasi agar selalu online", rowId:".donasi"},
-        {title: 'nomor mursid', description: "nomor mursid", rowId:".ownermursid"},
+        sections:  [{title: "JASA RUN", rows: [
+        {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
+        {title: 'harga 1', description: "jasarun tanpa di edit", rowId:".jasarun1"},
+        {title: 'harga 2', description: "jasarun di edit", rowId:".jasarrun2"},
+        {title: 'Nomor mursid', description: "nomor mursid", rowId:".ownermursid"},
        ] }],
         listType: 1
        }
@@ -23,6 +22,6 @@ let handler = async(m, { conn }) => {
 }
 
 handler.tags = ['main', 'update']
-handler.command = /^(hargarun|hargamursid)$/i
+handler.command = /^(listhargarun|hargarun)$/i
 handler.help = ['rules']
 module.exports = handler
