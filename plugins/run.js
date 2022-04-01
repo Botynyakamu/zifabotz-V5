@@ -13,7 +13,6 @@ let handler = async(m, { conn }) => {
         sections:  [{title: "STORE MURSID", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'nomor mursid', description: "kalau mau run silahkan cht mursid", rowId:".ownermursid"},
-        {title: 'list harga', description: "harga run bot", rowId:".hargarun"},
         {title: 'RULES', description: "rules zifabotz", rowId:".rules"},
        ] }],
         listType: 1
