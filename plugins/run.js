@@ -4,11 +4,11 @@ let handler = async(m, { conn }) => {
     let kontol = `
 ╭─────[ *JASA RUN BOT* ]─────✧
 ┴
-│ *pilih aja kak*
+│ *📮: CARI SC SENDIRI*
 ┬
 ╰──────────···`.trim()
   const button = {
-        buttonText: '🛒klik sini🛒',
+        buttonText: '=>klik sini<=',
         description: kontol,
         sections:  [{title: "STORE MURSID", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
