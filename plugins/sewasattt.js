@@ -4,7 +4,7 @@ let handler = async(m, { conn }) => {
     let kontol = `
 ╭─────[ *SEWA SATBOTSSS* ]─────✧
 ┴
-│ *pilih aja kak*
+│ *[❗️] Jangan spam no tersebut*
 ┬
 ╰──────────···`.trim()
   const button = {
