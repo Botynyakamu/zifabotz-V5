@@ -10,7 +10,7 @@ let handler = async(m, { conn }) => {
   const button = {
         buttonText: '🛒klik sini🛒',
         description: kontol,
-        sections:  [{title: "STORE ZIFABOTZ", rows: [
+        sections:  [{title: "STORE SATBOTSSS", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'nomor owner satbotsss', description: "kalau mau sewa silahkan cht owner satbotsss", rowId:".ownerbotsattt"},
         {title: 'list harga', description: "harga sewa satbotsss", rowId:".hargasatbotss"},
