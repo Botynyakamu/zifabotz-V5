@@ -1,33 +1,27 @@
 let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
-    let kamisato = `
-╭═══ 〔 𝐋𝐈𝐒𝐓 𝐁𝐄𝐑𝐋𝐀𝐍𝐆𝐆𝐀𝐍𝐀𝐍 〕 ════
-├⬡ PERMANEN
-└═══════════════
-*_SILAHKAN KLIK  "jasa run"_*
-
-Note: *SIAPKAN SC SENDIRI*
-╭═══════════════════════
-║╭──❉ 〔 𝐕𝐈𝐀 𝐌𝐎𝐁𝐈𝐋𝐄 〕 ❉──────
-║│➸ *DANA*: 088233832771
-║╰─────────
-▌│█║▌║▌║║▌║▌║█│▌▌│█║▌║▌║║▌║▌║█│
-╰═══════════════════════
-`.trim()
-    const button = {
-        buttonText: 'jasa run',
-        description: kamisato,
-        sections:  [{title: "Silahkan di pilih", rows: [
-        {title: 'Owner', description: "Chat owner nya jika ingin jasa run.", rowId:".ownermursid"},
-        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
+    let kontol = `
+╭─────[ *JASA RUN BOT* ]─────✧
+┴
+│ *pilih aja kak*
+┬
+╰──────────···`.trim()
+  const button = {
+        buttonText: '🛒klik sini🛒',
+        description: kontol,
+        sections:  [{title: "STORE MURSID", rows: [
+        {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
+        {title: 'nomor mursid', description: "kalau mau run silahkan cht mursid", rowId:".ownerbotsattt"},
+        {title: 'list harga', description: "harga run bot", rowId:".hargarun"},
+        {title: 'RULES', description: "rules zifabotz", rowId:".rules"},
        ] }],
         listType: 1
        }
     conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
 }
-handler.tags = ['main']
-handler.command = /^(jasarun)$/i
-handler.help = ['jasarun']
+
+handler.tags = ['main', 'update']
+handler.command = /^(run|runbotmursid)$/i
+handler.help = ['rules']
 module.exports = handler
-//R-Txzy
