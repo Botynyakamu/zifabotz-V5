@@ -12,7 +12,7 @@ let handler = async(m, { conn }) => {
         description: kontol,
         sections:  [{title: "STORE ZIFABOTZ", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: 'nomor owner satbotsss', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewabotsat"},
+        {title: 'nomor owner satbotsss', description: "kalau mau sewa silahkan cht owner satbotsss", rowId:".ownerbotsattt"},
         {title: 'list harga', description: "harga sewa satbotsss", rowId:".hargasatbotss"},
         {title: 'RULES', description: "rules zifabotz", rowId:".rules"},
        ] }],
