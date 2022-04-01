@@ -22,6 +22,6 @@ let handler = async(m, { conn }) => {
 }
 
 handler.tags = ['main', 'update']
-handler.command = /^(botsat|sewasat)$/i
+handler.command = /^(botsattt|sewasat)$/i
 handler.help = ['rules']
 module.exports = handler
