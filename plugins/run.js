@@ -8,7 +8,7 @@ let handler = async(m, { conn }) => {
 ┬
 ╰──────────···`.trim()
   const button = {
-        buttonText: '=>klik sini<=',
+        buttonText: '⎙ㅤklik sini ⎙ㅤ',
         description: kontol,
         sections:  [{title: "STORE MURSID", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
