@@ -1,0 +1,28 @@
+let fetch = require('node-fetch')
+let { MessageType } = require('@adiwajshing/baileys')
+let handler = async(m, { conn }) => {
+    let kontol = `╭─────[ *HARGA JASA RUN* ]─────✧
+┴
+| 📮: *CARI SC SENDIRI*
+| HARGA KLIK DI BAWAH
+┬
+╰──────────···`.trim()
+  const button = {
+        buttonText: 'Klik Di sini',
+        description: kontol,
+        sections:  [{title: "Silahkan di pilih harganya", rows: [
+        {title: 'jasa run 1', description: "run bot tanpa di edit", rowId:".jasarun1"},
+        {title: 'jasa run 2', description: "run bot di edit", rowId:".jasarun2"},
+        {title: 'Group Bot', description: "Official Group Bot zifabotz", rowId:".gcbot"},
+        {title: 'Donasi', description: "Donasi agar selalu online", rowId:".donasi"},
+        {title: 'nomor mursid', description: "nomor mursid", rowId:".ownermursid"},
+       ] }],
+        listType: 1
+       }
+    conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
+}
+
+handler.tags = ['main', 'update']
+handler.command = /^(hargarun|hargamursid)$/i
+handler.help = ['run']
+module.exports = handler
