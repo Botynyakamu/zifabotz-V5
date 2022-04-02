@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-let caption = `anjir toxic🗿 awokawokaowk truskan bakat mu`
+let caption = `📮: *BOT INI MENGGUNAKN SC DARI https://github.com/Botynyakamu/zifabotz-V5*`
 
 conn.sendButton( m.chat, caption, `©️ zifabotz`, `thankyou`, `.👍`, m)
 
