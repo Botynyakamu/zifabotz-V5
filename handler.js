@@ -403,7 +403,7 @@ module.exports = {
             let groupMetadata = await this.groupMetadata(jid)
             for (let user of participants) {
               let kai = await(await fetch('https://telegra.ph/file/e8a205ef7a8fcff0de975.jpg')).buffer()
-              let poi = await(await fetch('https://telegra.ph/file/7924b4502e55af960e17d.jpg')).buffer()
+              let poi = await(await fetch('https://telegra.ph/file/3e5ab599e85f33e7a0e4f.jpg')).buffer()
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
                   (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
                 let wel = `━━━━━━ Welcome ━━━━━━`
