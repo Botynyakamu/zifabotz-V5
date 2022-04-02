@@ -27,7 +27,7 @@ handler.before = async function (m) {
                 while (levelling.canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 
                 if (before !== user.level) {
-                        let rank = `https://telegra.ph/file/5b94da0fc1fafa4aa1be7.jpg`
+                        let rank = `https://telegra.ph/file/ec91af204a8a7dd6bca14.jpg`
                         {
                         	let tag = `@${m.sender.replace(/@.+/, '')}`
                         	let mentionedJid = [m.sender]
