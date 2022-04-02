@@ -1,10 +1,1 @@
-let handler = async (m, { conn }) => {
-let caption = `📮: *BOT INI MENGGUNAKN SC DARI https://github.com/Botynyakamu/zifabotz-V5*`
-
-conn.sendButton( m.chat, caption, `©️ zifabotz`, `thankyou`, `.👍`, m)
-
-       }
-       
-handler.customPrefix = /^(.sc|.script|.scr|.scrp|.scrpt)/i
-handler.command = new RegExp
-module.exports = handler
+const _0x430c93=_0x6b95;function _0x402f(){const _0x4034b9=['324MqmFtC','.👍','21224OVblCU','chat','30wnonOt','7530jAllrY','146530pueZTm','2831436rXPwZP','sendButton','889MQrblj','5540740uPDgoc','exports','command','469230iMnUcm','103096UbZDkB'];_0x402f=function(){return _0x4034b9;};return _0x402f();}(function(_0x388de4,_0x26cda6){const _0x304b7e=_0x6b95,_0x534ade=_0x388de4();while(!![]){try{const _0x2cfb5c=parseInt(_0x304b7e(0x7e))/0x1+parseInt(_0x304b7e(0x7d))/0x2+parseInt(_0x304b7e(0x84))/0x3*(-parseInt(_0x304b7e(0x7f))/0x4)+-parseInt(_0x304b7e(0x85))/0x5*(-parseInt(_0x304b7e(0x83))/0x6)+parseInt(_0x304b7e(0x88))/0x7*(-parseInt(_0x304b7e(0x81))/0x8)+-parseInt(_0x304b7e(0x86))/0x9+parseInt(_0x304b7e(0x89))/0xa;if(_0x2cfb5c===_0x26cda6)break;else _0x534ade['push'](_0x534ade['shift']());}catch(_0x50c426){_0x534ade['push'](_0x534ade['shift']());}}}(_0x402f,0x2ccae));let handler=async(_0x450752,{conn:_0x1782f4})=>{const _0x421d26=_0x6b95;let _0x1adfcf='📮:\x20*BOT\x20INI\x20MENGGUNAKN\x20SC\x20DARI\x20https://github.com/Botynyakamu/zifabotz-V5*';_0x1782f4[_0x421d26(0x87)](_0x450752[_0x421d26(0x82)],_0x1adfcf,'©️\x20zifabotz','thankyou',_0x421d26(0x80),_0x450752);};function _0x6b95(_0x40ee95,_0x497a61){const _0x402f03=_0x402f();return _0x6b95=function(_0x6b9559,_0x11bef2){_0x6b9559=_0x6b9559-0x7b;let _0x54a18e=_0x402f03[_0x6b9559];return _0x54a18e;},_0x6b95(_0x40ee95,_0x497a61);}handler['customPrefix']=/^(.sc|.script|.scr|.scrp|.scrpt)/i,handler[_0x430c93(0x7c)]=new RegExp(),module[_0x430c93(0x7b)]=handler;
