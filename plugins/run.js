@@ -2,13 +2,19 @@ let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kontol = `
-╭─────[ *JASA RUN BOT* ]─────✧
-┴
-│ *📮: CARI SC SENDIRI*
-┬
-╰──────────···`.trim()
+╭═══════════════════════
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪𝙅𝘼𝙎𝘼 𝙍𝙐𝙉⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║│➸ • *JASA RUN*           
+║│ *LANGSUNG KE*
+║│ *OWNER*
+╰─────────❉
+📮 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ *_CARI SC SENDIRI_*
+_____••••••••• 
+⬣━〔Store By Rozi〕━⬣
+▌│█║▌║▌║║▌║▌║█│▌`.trim()
   const button = {
-        buttonText: '⎙ㅤklik sini ⎙ㅤ',
+        buttonText: '↱ 🄺🄻🄸🄺 🅂🄸🄽🄸 ↲',
         description: kontol,
         sections:  [{title: "STORE MURSID", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
