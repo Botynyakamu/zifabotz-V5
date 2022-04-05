@@ -20,9 +20,9 @@ let handler = async (m, { conn }) => {
 ${registered ? '🎨 • *Age:* ' + age : ''}
 ${about ? '🗒️ • *About:* ' + about : ''}
 
-🌟 • *Premium:* ${premium ? "✅" :"❌"}
-📑 • *Registered:* ${registered ? '✅': '❌'}
-⛔ • *Banned:* ❌
+🌟 • *Premium:* ${premium ? "🙋" :"🙅"}
+📑 • *Registered:* ${registered ? '🙋': '🙅'}
+⛔ • *Banned:* 🙅
 
 `.trim()
     let mentionedJid = [who]
