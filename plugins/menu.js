@@ -402,7 +402,11 @@ _____•••••••••
                                     "description": "gambar waifu",
                                     "rowId": ".waifu"
                                 }, { 
-                                    "title": "|👩‍⚖️|─────「 31 」",
+"title": "|🅿️|─────「 31 」",
+                                    "description": "profile anda di zifabotz",
+                                    "rowId": ".profile"
+                                }, { 
+                                    "title": "|👩‍⚖️|─────「 32 」",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
