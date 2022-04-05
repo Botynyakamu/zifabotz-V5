@@ -7,7 +7,7 @@ let info = `╭═[ *SCRIPT* ]═────···
 │ *Pemilik Sc :*
 │ ╰ https://wa.me/6285828764046
 │ *group :* 
-│ ╰ https://hardianto.xyz
+│ ╰ https://bit.ly/3IKkoym
 ┬
 ╰──────────═┅═──────────
 [❗] Jangan diperjual belikan karna SC ini free
