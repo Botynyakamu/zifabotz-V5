@@ -87,6 +87,18 @@ Buka halaman HEROKU => https://heroku.com
  LIAT YT AJA,GW LUPA SOALNYA
 ( JAGAN LUPA BUILDPACK NYA )
 ```
+## settings 
+Edit Nomor Owner DLL `'./config.js'`
+```ts 
+OwnerNumber = ['wa.me/6285828764046']
+
+Thumbnail
+global.image = 'https://telegra.ph/file/4f4a5a3cde6a98a96da79.jpg'//change the image
+global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
+global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
+global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
+```
+---------
 
 Simple WhatsApp Bot
 
