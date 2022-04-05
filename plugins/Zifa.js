@@ -3,14 +3,14 @@ let fetch = require('node-fetch')
 let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Source+code'
 let info = `╭═[ *SCRIPT* ]═────···
 ┴
-│ *Script :* 30K (No node_module)
-│ *no owner :*
+│ *Script :* https://github.com/Botynyakamu/zifabotz-V5
+│ *Pemilik Sc :*
 │ ╰ https://wa.me/6285828764046
-│ *RestApi :* 
+│ *group :* 
 │ ╰ https://hardianto.xyz
 ┬
 ╰──────────═┅═──────────
-[❗] Jangan diperjual belikan tanpa seizin owner
+[❗] Jangan diperjual belikan karna SC ini free
 `.trim()
 await conn.send2Button(m.chat, info, `${botol}`, '⋮☰ Back', '.menu', 'Owner', '.owner', m)
 conn.reply(info)
