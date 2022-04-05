@@ -1,15 +1,15 @@
-let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
     let { anon, anticall, antispam, antitroli, backup, jadibot, groupOnly, nsfw } = global.db.data.settings[conn.user.jid]
     const chats = conn.chats.all()
     const groups = chats.filter(v => v.jid.endsWith('g.us'))
     let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
 
+    let wm = global.botwm
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
 
     let str = `
-╭═══════════════════════
+╭╭═══════════════════════
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪STATUS ZIFABOTZ⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸ Aktif selama ${uptime}
 ║│➸ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
@@ -34,8 +34,10 @@ _____•••••••••
 ║│➸ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 ║│➸ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 ╰─────────❉
-_____•••••••`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©️zifabotz', 'Owner', '.owner', 'Menu', '.menu', m)
+_____•••••••
+    `.trim()
+conn.send2Button(m.chat, str, wm, 'Info', '.info', 'Owner', '.owner',m)
+conn.reply(str)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
