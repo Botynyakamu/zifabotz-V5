@@ -12,9 +12,9 @@ let handler = async(m, { conn }) => {
         description: kontol,
         sections:  [{title: "YUK KENALAN SAMA OWNER", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: 'KELENGKAPAN', description: "asal tempat owner", rowId:".asal"},
+        {title: 'KELENGKAPAN', description: "Dll tentang owner", rowId:".asal"},
         {title: 'GITHUB', description: "Github owner", rowId:".gh"},
-        {title: 'YOUTUBE', description: "chenel owner", rowId:".ytzi"},
+        {title: 'YOUTUBE', description: "chenel yt owner", rowId:".ytzi"},
         {title: 'TIKTOK', description: "TIKTOK owner", rowId:".tt"},
        ] }],
         listType: 1
