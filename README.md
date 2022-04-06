@@ -99,6 +99,10 @@ global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
 global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
 ```
 ---------
+##BANTU DONASI YUK
+```bash
+http://saweria.co/mursid25
+```
 
 Simple WhatsApp Bot
 
