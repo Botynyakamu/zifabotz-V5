@@ -220,12 +220,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
-                        "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `*©zifabotz*
-⏰Aktif selama ${uptime} 
-⬣━〔Powered By Rozi〕━⬣
-▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
-                        "footerText": "*group offc bot https://bit.ly/3IKkoym*",
+                        "title": `${ucapan()}, ${name}`.trim(),
+          "description": "*© zifabotz*",
+          "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "««TAMPILAN MENU««",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -546,16 +543,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "udah malam tidur gih •>•"
   if (time >= 4) {
-    res = "Selamat pagi hari •>•"
+    res = "Selamat pagi hari bro 🌅"
   }
   if (time > 10) {
-    res = "Selamat siang hari •>•"
+    res = "Selamat siang hari bro 🏜️"
   }
   if (time >= 15) {
-    res = "Selamat sore hari •>•"
+    res = "Selamat sore hari bro 🌄"
   }
   if (time >= 18) {
-    res = "Selamat malam hari •>•"
+    res = "Selamat malam hari bro 🌌"
   }
   return res
 }
