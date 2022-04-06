@@ -221,16 +221,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
-║│➸⏰Aktif selama ${uptime}
-║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-║│➸ Nama bot: *zifabotz*
-║│➸ *${conn.blocklist.length}* Terblock
-║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-╰─────────❉
-_____••••••••• 
+                        "description": `*©zifabotz*
+⏰Aktif selama ${uptime} 
 ⬣━〔Powered By Rozi〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
                         "footerText": "*group offc bot https://bit.ly/3IKkoym*",
