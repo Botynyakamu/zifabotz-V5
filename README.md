@@ -144,6 +144,19 @@ Heroku Buildpack
 [BOTCAHX](https://github.com/BOTCAX) | [ALYA](https://github.com/AlyaaXd) | [ZIFABOTZ](https://github.com/Botynyakamu)| [Luc](https://github.com/siegrin)
  Penulis / Pencipta | Penulis / pencipta | Penulis / pencipta | membantu
 
+------
+ 
+### Github Stats 
+
+![github card](https://github-readme-stats.vercel.app/api?username=zifabotz&show_icons=true&theme=radical)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zifabotz&theme=monokai)
+
+### Repo Stats 
+
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=zifabotz&repo=zifabotz-V5-md&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=zifabotz&repo=Ran-Bot&theme=dark)
+
 # Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
 ~ Selamat Memakai Guys~
