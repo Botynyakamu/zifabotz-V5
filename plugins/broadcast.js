@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
     await delay(1500)
     await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast/i.test(teks) ? teks : '─────❏ *ʙʀᴏᴀᴅᴄᴀsᴛ* ❏─────\n\n' + teks + '\n\n' + watermark), true).catch(_ => _)
   }
-  m.reply('_*Broadcast sukses di kirim*_')
+  m.reply('_*Broadcast sukses dikirim*_')
 }
 handler.help = ['broadcast', 'bc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
