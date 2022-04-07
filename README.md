@@ -155,7 +155,7 @@ Heroku Buildpack
 ### Repo Stats 
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=Botynyakamu&repo=zifabotz-V5&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Botynyakamu&repo=Ran-Bot&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Botynyakamu&repo=zifabotz-V5&theme=dark)
 
 # Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
