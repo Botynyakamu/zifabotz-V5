@@ -148,14 +148,14 @@ Heroku Buildpack
  
 ### Github Stats 
 
-![github card](https://github-readme-stats.vercel.app/api?username=zifabotz&show_icons=true&theme=radical)
+![github card](https://github-readme-stats.vercel.app/api?username=Botynyakamu&show_icons=true&theme=radical)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zifabotz&theme=monokai)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Botynyakamu&theme=monokai)
 
 ### Repo Stats 
 
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=zifabotz&repo=zifabotz-V5&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=zifabotz&repo=Ran-Bot&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Botynyakamu&repo=zifabotz-V5&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Botynyakamu&repo=Ran-Bot&theme=dark)
 
 # Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
