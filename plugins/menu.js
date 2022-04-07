@@ -220,7 +220,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
-                        ╭═══════════════════════
+                        "title": `*${ucapan()}, ${name}*`.trim(),
+                        "description": `╭═══════════════════════
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
