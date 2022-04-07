@@ -142,7 +142,7 @@ Heroku Buildpack
 [![BOTCAHX](https://github.com/BOTCAX.png?size=100)](https://github.com/BOTCAHX) | [![ALYA](https://github.com/AlyaaXd.png?size=100)](https://github.com/AlyaaXd) | [![ZIFABOTZ](https://github.com/Botynyakamu.png?size=100)](https://github.com/botynyakamu)
 ----|----|----
 [BOTCAHX](https://github.com/BOTCAX) | [ALYA](https://github.com/AlyaaXd) | [ZIFABOTZ](https://github.com/Botynyakamu)| [Luc](https://github.com/siegrin)
- Penulis / Pencipta | Penulis / pencipta | Penulis / pencipta | membantu
+ Penulis / Pencipta | Penulis / pencipta | recode | membantu
 
 ------
  
