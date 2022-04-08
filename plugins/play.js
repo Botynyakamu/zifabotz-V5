@@ -29,11 +29,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 ╭──❉┏┉⌣ ┈̥-̶̯͡..̷̴✽̶┄┈┈┈┈┈┈┈┈┈┈┉┓
 ┆ *PLAY ZIFABOTZ*
 └┈┈┈┈┈┈┈┈┈┈┈⌣ ┈̥-̶̯͡..̷̴✽̶⌣ ✽̶ 
- *Judul:* ${title}
- *Ukuran File Audio:* ${filesizeF}
- *Ukuran File Video:* ${yt2.filesizeF}
- *Server y2mate:* ${usedServer}
+📃 *Judul:* ${title}
+💽 *Ukuran File Audio:* ${filesizeF}
+🎥 *Ukuran File Video:* ${yt2.filesizeF}
+📠 *Server y2mate:* ${usedServer}
 ╰─────────❉
+├●───────────────┤
+◁ㅤㅤㅤㅤ ㅤ❚❚ㅤㅤㅤㅤㅤ ▷ 
 `.trim(), watermark, '🎶Audio', `.yta ${vid.url}`, '🎥Video', `.yt ${vid.url}`)
 }
 handler.help = ['play'].map(v => v + ' <pencarian>')
