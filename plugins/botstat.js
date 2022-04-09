@@ -36,7 +36,7 @@ _____•••••••••
 ╰─────────❉
 _____•••••••
     `.trim()
-conn.send2Button(m.chat, str, wm, '⋮☰ Menu', '.menu', 'Owner', '.owner',m)
+conn.send2Button(m.chat, str, wm, '⋮☰ Menu', '.menu', '✆Owner✆', '.owner',m)
 conn.reply(str)
 }
 handler.help = ['botstatus']
