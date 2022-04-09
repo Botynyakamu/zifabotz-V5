@@ -1,23 +1,23 @@
-const fetch = require('node-fetch')
-
 let handler = async (m, { conn, text }) => {
-    let logo = global.logo
-    let groups = conn.chats.all().filter(v => v.jid.endsWith('g.us')).map(v => v.jid)
-    conn.reply(m.chat, `_Send a broadcast message to ${groups.length} group_\nestimation complete ${groups.length * 1.5} seconds`, m)
-    for (let id of groups) {
-        await delay(1500)
-        await conn.send2ButtonLoc(id, logo,'*—「 Zifabotz Broadcast 」—*\n' + text, wm, '⋮☰ Menu', '.menu', 'Sewa', '.sewa')
-    }
-    m.reply('_*Broadcast berhasil di kirim*_')
+  let groups = conn.chats.all().filter(v => v.jid.endsWith('g.us')).map(v => v.jid)
+  let cc = text ? m : m.quoted ? await m.getQuotedObj() : false || m
+  let teks = text ? text : cc.text
+  conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_\nestimasi selesai ${groups.length * 1.5} detik`, m)
+  for (let id of groups) {
+    await delay(1500)
+    await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast/i.test(teks) ? teks : '─────❏ *ʙʀᴏᴀᴅᴄᴀsᴛ* ❏─────\n\n' + teks + '\n\n' + watermark), true).catch(_ => _)
+  }
+  m.reply('_*Broadcast Berhasil Dikirim*_')
 }
-handler.help = ['bcgc'].map(v => v + ' <teks>')
+handler.help = ['broadcastgroup', 'bcgc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
-handler.command = /^(broadcast|bc)(gc|groups)$/i
-
+handler.command = /^(broadcast|bc)(group|grup|gc)$/i
 handler.owner = true
-
 module.exports = handler
 
-const delay = time => new Promise(res => setTimeout(res, time))
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
 
-let wm = global.botwm
+const randomID = length => require('crypto').randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length)
+
+const delay = time => new Promise(res => setTimeout(res, time))
