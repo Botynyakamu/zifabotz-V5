@@ -1,1 +1,44 @@
-function _0xf878(_0x500f36,_0x15ace9){const _0x58ee57=_0x58ee();return _0xf878=function(_0xf87807,_0x347d2b){_0xf87807=_0xf87807-0x12d;let _0x1c05c6=_0x58ee57[_0xf87807];return _0x1c05c6;},_0xf878(_0x500f36,_0x15ace9);}const _0x23476c=_0xf878;(function(_0x160c68,_0xa1478e){const _0x452e23=_0xf878,_0xf41f15=_0x160c68();while(!![]){try{const _0x7c61a6=parseInt(_0x452e23(0x12d))/0x1+-parseInt(_0x452e23(0x14c))/0x2*(-parseInt(_0x452e23(0x149))/0x3)+parseInt(_0x452e23(0x146))/0x4+parseInt(_0x452e23(0x142))/0x5*(-parseInt(_0x452e23(0x13d))/0x6)+parseInt(_0x452e23(0x13a))/0x7*(parseInt(_0x452e23(0x14b))/0x8)+-parseInt(_0x452e23(0x130))/0x9*(parseInt(_0x452e23(0x12f))/0xa)+-parseInt(_0x452e23(0x12e))/0xb*(parseInt(_0x452e23(0x13e))/0xc);if(_0x7c61a6===_0xa1478e)break;else _0xf41f15['push'](_0xf41f15['shift']());}catch(_0x4a4a9f){_0xf41f15['push'](_0xf41f15['shift']());}}}(_0x58ee,0x7d33b));function _0x58ee(){const _0x43a282=['command','159376zpbHuK','exports','tutor','102sYCPRT','24GAWkkv','owner','group','.owner','101915pTlYIu','⋮☰\x20Back','trim','premium','1319372QicUHw','Owner','botwm','56838fKxQFR','.menu','224HtMOBS','4bKGDPT','send2Button','mods','node-fetch','379538HHBbcf','2425973WTmnJv','12590vEqcyu','603uTEUfn','chat','https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Source+code','botAdmin','fail','limit','tags','help','admin'];_0x58ee=function(){return _0x43a282;};return _0x58ee();}let handler=async(_0x5d57e1,{conn:_0x318c31,usedPrefix:_0x45b417})=>{const _0x5527aa=_0xf878;let _0x29706e=require(_0x5527aa(0x14f)),_0x24254e=_0x5527aa(0x132),_0x3aeded='\x20*📮\x20Script:*\x20https://github.com/Botynyakamu/zifabotz-V5\x0a\x0a[❗]\x20Jangan\x20diperjual\x20belikan\x20tanpa\x20seizin\x20owner\x0a\x0a'[_0x5527aa(0x144)]();await _0x318c31[_0x5527aa(0x14d)](_0x5d57e1[_0x5527aa(0x131)],_0x3aeded,''+botol,_0x5527aa(0x143),_0x5527aa(0x14a),_0x5527aa(0x147),_0x5527aa(0x141),_0x5d57e1),_0x318c31['reply'](_0x3aeded);};handler[_0x23476c(0x137)]=['sc'],handler[_0x23476c(0x136)]=[_0x23476c(0x13c)],handler[_0x23476c(0x139)]=/^(sc)$/i,handler[_0x23476c(0x13f)]=![],handler[_0x23476c(0x14e)]=![],handler[_0x23476c(0x145)]=![],handler[_0x23476c(0x140)]=![],handler['private']=![],handler[_0x23476c(0x138)]=![],handler[_0x23476c(0x133)]=![],handler[_0x23476c(0x134)]=null,handler[_0x23476c(0x135)]=![],module[_0x23476c(0x13b)]=handler;let botol=global[_0x23476c(0x148)];
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+	let fetch = require('node-fetch')
+    let fs = require('fs')
+const ftrol = {
+    key : {
+    remoteJid: 'status@broadcast',
+    participant : '0@s.whatsapp.net'
+    },
+    message: {
+    orderMessage: {
+    itemCount : 2022,
+    status: 1,
+    surface : 1,
+    message: 'Script zifabotz', 
+    orderTitle: `▮Menu ▸`,
+    thumbnail: await (await fetch(fla + 'Script')).buffer(), //Gambarnye
+    sellerJid: '0@s.whatsapp.net' 
+    }
+    }
+    }
+let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Source+code'
+let info = `◪ 📮 *SCRIPT BOT*
+https://github.com/Botynyakamu/zifabotz-V5
+`.trim()
+await conn.send2Button(m.chat, info, `${botol}`, '⋮☰ MENU', '.menu', 'SC NO ENC', '.scnoenc', ftrol)
+}
+handler.help = ['sc']
+handler.tags = ['tutor']
+handler.command = /^(sc)$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+handler.limit = false
+
+module.exports = handler
+
+let botol = global.botwm
