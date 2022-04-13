@@ -225,7 +225,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-║│➸ Nama bot: *zifabotz*
+║│➸ *nama sc*: *_zifabotz-V1_*
 ║│➸ *${conn.blocklist.length}* Terblock
 ║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
@@ -554,16 +554,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "udah malam tidur gih •>•"
   if (time >= 4) {
-    res = "Selamat pagi hari bro 🌅"
+    res = "Selamat pagi hari •>•"
   }
   if (time > 10) {
-    res = "Selamat siang hari bro 🏜️"
+    res = "Selamat siang hari •>•"
   }
   if (time >= 15) {
-    res = "Selamat sore hari bro 🌄"
+    res = "Selamat sore hari •>•"
   }
   if (time >= 18) {
-    res = "Selamat malam hari bro 🌌"
+    res = "Selamat malam hari •>•"
   }
   return res
 }
