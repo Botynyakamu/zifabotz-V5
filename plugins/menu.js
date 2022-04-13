@@ -10,11 +10,11 @@ const defaultMenu = {
   before: `
 ╭═══════════════════════⬣
 ║╭──❉ 〔⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪〕 ❉──────
-║│➸Hai, %name!
-║│➸Tersisa *%limit Limit*
+║│➸Hai, %name!👋
+║│➸💰Tersisa *%limit Limit*
 ║│➸Role *%role*
-║│➸Level *%level (%exp / %maxexp)*
-║│➸[%xp4levelup]
+║│➸🎚️Level *%level (%exp / %maxexp)*
+║│➸🎚️[%xp4levelup]
 ║│➸%totalexp XP secara Total
 ║╭──❉ 〔⳹ ❋ཻུ۪۪⸙TANGGAL⳹ ❋ཻུ۪۪〕 ❉──────
 ║│➸Hari: *%week %weton*
